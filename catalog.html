@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>HTML Academy: Техномарт. Каталог</title>
+</head>
+<body>
+
+<header class="main-header">
+    <nav class="main-navigation">
+        <!-- Верхняя полоса с лого -->
+        <a class="main-header-logo">
+            <img src="http://placehold.it/220x50" width="220" height="50" alt="Логотип Техномарт">
+        </a>
+
+        <input class="main-header-search" type="search" placeholder="Поиск">
+
+        <a class="main-header-link  main-header-bookmarks" href="/">Закладки: 0</a>
+        <a class="main-header-link  main-header-cart  full" href="/">Корзина: 10</a>
+        <a class="main-header-order" href="/">Оформить заказ</a>
+        <!-- /Верхняя полоса с лого -->
+
+        <!-- Средний блок с адресом и пользователем -->
+        <h1 class="header-h1">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+
+        <div class="main-header-contacts">
+            <a href="tel:88125550555">+7 (812) 555-05-55</a>
+            <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+        </div>
+
+        <div class="user-navigation">
+            <p class="user-info">
+                Равшан Джамшутович
+                <a href="/">Выход</a>
+            </p>
+            <a href="/my-orders.html">Мои заказы</a>
+            <a href="/account.html">Личный кабинет</a>
+        </div>
+        <!-- /Средний блок с адресом и пользователем -->
+
+        <!-- Навигация сайта -->
+        <ul class="site-navigation">
+            <li><a href="/">Главная</a></li>
+            <li><a href="/about.html">Компания</a></li>
+            <li><a href="/catalog.html">Каталог</a></li>
+            <li><a href="/news.html">Новости</a></li>
+            <li><a href="/special.html">Спецпредложения</a></li>
+            <li><a href="/delivery.html">Доставка</a></li>
+            <li><a href="/contacts.html">Контакты</a></li>
+        </ul>
+        <!-- /Навигация сайта -->
+    </nav>
+</header>
+
+<main>
+    <div class="container">
+        <section class="breadcrumbs">
+            <ul class="breadcrumbs-list">
+                <li><a href="/">Главная</a></li>
+                <li><a href="/catalog.html">Каталог</a></li>
+                <li><a href="/tools.html">Инструмент</a></li>
+                <li>Перфораторы</li>
+            </ul>
+            <h2>Перфораторы</h2>
+        </section>
+
+        <section class="filter">
+            <div class="brends">
+                <h3>Производители:</h3>
+                <div class="brends-item">
+                    <input type="checkbox" name="bosch" id="bosch" value="Bosch" checked>
+                    <label for="bosch">Bosch</label>
+                </div>
+                <div class="brends-item">
+                    <input type="checkbox" name="interskol" id="interskol" value="Интерскол">
+                    <label for="interskol">Интерскол</label>
+                </div>
+                <div class="brends-item">
+                    <input type="checkbox" name="makita" id="makita" value="Makita" checked>
+                    <label for="makita">Makita</label>
+                </div>
+                <div class="brends-item">
+                    <input type="checkbox" name="dewalt" id="dewalt" value="Dewalt">
+                    <label for="dewalt">Dewalt</label>
+                </div>
+                <div class="brends-item">
+                    <input type="checkbox" name="hitachi" id="hitachi" value="Hitachi">
+                    <label for="hitachi">Hitachi</label>
+                </div>
+            </div>
+
+            <div class="power">
+                <h3>Питание:</h3>
+                <div class="power-item">
+                    <input type="radio" name="accum" id="accum" value="Аккумуляторные" checked>
+                    <label for="accum">Аккумуляторные</label>
+                </div>
+                <div class="power-item">
+                    <input type="radio" name="power" id="power" value="Сетевые">
+                    <label for="power">Сетевые</label>
+                </div>
+            </div>
+
+            <button class="btn  btn-show" type="button">Показать</button>
+        </section>
+
+        <section class="catalog">
+            <ul class="catalog-list">
+                <li class="catalog-item">
+                    <img src="http://placehold.it/220x170" width="220" height="170" alt="Перфоратор BFG 3000">
+                    <b class="title">Перфоратор BOSCH BFG 3000</b>
+                    <del class="old-price">22500 Р.</del>
+                    <p class="price">15500 Р.</p>
+
+                    <div class="catalog-buttons">
+                        <button class="btn  btn-buy" type="button">Купить</button>
+                        <button class="btn  btn-bookmark" type="button">В закладки</button>
+                    </div>
+                </li>
+                <li class="catalog-item">
+                    <img src="http://placehold.it/220x170" width="220" height="170" alt="Перфоратор BFG 3000">
+                    <b class="title">Перфоратор BOSCH BFG 3000</b>
+                    <del class="old-price">22500 Р.</del>
+                    <p class="price">15500 Р.</p>
+
+                    <div class="catalog-buttons">
+                        <button class="btn  btn-buy" type="button">Купить</button>
+                        <button class="btn  btn-bookmark" type="button">В закладки</button>
+                    </div>
+                </li>
+                <li class="catalog-item">
+                    <img src="http://placehold.it/220x170" width="220" height="170" alt="Перфоратор BFG 3000">
+                    <b class="title">Перфоратор BOSCH BFG 3000</b>
+                    <del class="old-price">22500 Р.</del>
+                    <p class="price">15500 Р.</p>
+
+                    <div class="catalog-buttons">
+                        <button class="btn  btn-buy" type="button">Купить</button>
+                        <button class="btn  btn-bookmark" type="button">В закладки</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+</main>
+
+<footer class="main-footer">
+    <nav class="footer-navigation">
+        <a class="main-footer-logo">
+            <img src="http://placehold.it/220x70" width="220" height="70" alt="Логотип Техномарт">
+        </a>
+
+        <ul class="footer-navigation-main">
+            <li><a href="/about.html">Компания</a></li>
+            <li><a href="/news.html">Новости</a></li>
+            <li><a href="/catalog.html">Каталог</a></li>
+            <li><a href="/delivery.html">Доставка</a></li>
+            <li><a href="/contacts.html">Контакты</a></li>
+        </ul>
+
+        <address class="">
+            г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+            +7 (812) 555-05-55
+        </address>
+
+        <ul class="footer-navigation-section">
+            <li><a href="/materials.html">Материалы</a></li>
+            <li><a href="/technik.html">Техника</a></li>
+            <li><a href="/tools.html">Инструмент</a></li>
+            <li><a href="/special.html">Спецпредложения</a></li>
+        </ul>
+    </nav>
+
+    <section class="footer-copyright">
+        <p>
+            © 2010–2019 Компания «Техномарт»<br>
+            Все права защищены
+        </p>
+
+        <ul class="social">
+            <li><a class="social-links  social-links-vk" href="https://vk.com">VK</a></li>
+            <li><a class="social-links  social-links-fb" href="https://facebook.com">Facebook</a></li>
+            <li><a class="social-links  social-links-insta" href="https://instagram.com">Instagram</a></li>
+        </ul>
+
+        <p>
+            <b>Обратная связь:</b>
+            <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+        </p>
+
+        <p>
+            <b>Разработано:</b>
+            <a class="button" href="https://htmlacademy.ru">htmlacademy.ru</a>
+        </p>
+    </section>
+</footer>
+
+</body>
+</html>
