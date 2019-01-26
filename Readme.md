@@ -11,7 +11,8 @@
 https://ru.bem.info/methodology/html/ – БЭМ
 https://github.com/yoksel/common-words – названия классов на eng
 https://www.kizu.ru/ru/nested-links/ – вложенные ссылки
-http://html5doctor.com/ – HTML5 
+http://html5doctor.com/ – HTML5
+http://codeguide.academy/#html-syntax – кодгайды 
 
 ### Демки
 https://up.htmlacademy.ru/htmlcss/24/demos/1911 – Разметка Барбершоп
