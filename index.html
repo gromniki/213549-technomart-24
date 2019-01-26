@@ -2,6 +2,9 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>HTML Academy: Техномарт</title>
 </head>
 <body>
@@ -35,7 +38,7 @@
         <!-- /Средний блок с заголовком и адресом -->
 
         <!-- Навигация сайта -->
-        <ul class="main-navigation">
+        <ul class="site-navigation">
             <li><a href="/">Главная</a></li>
             <li><a href="/about.html">Компания</a></li>
             <li><a href="/catalog.html">Каталог</a></li>
@@ -49,30 +52,84 @@
 </header>
 
 <main>
-    <section class="about">
-        <h2>Компания «Техномарт»</h2>
+    <div class="container">
+        <section class="about">
+            <h2>Компания «Техномарт»</h2>
 
-        <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
-        <p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
-            Техномарт работает со многими транспортными компаниями:</p>
+            <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит
+                равнодушными любителей сэкономить на гастарбайтерах.</p>
+            <p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
+                Техномарт работает со многими транспортными компаниями:</p>
 
-        <ul>
-            <li>Деловые линии</li>
-            <li>Автотрейдинг</li>
-            <li>ЖелДорЭкспедиция</li>
+            <ul>
+                <li>Деловые линии</li>
+                <li>Автотрейдинг</li>
+                <li>ЖелДорЭкспедиция</li>
+            </ul>
+
+            <a href="/about.html">Подробнее о компании</a>
+        </section>
+
+        <section class="contacts">
+            <h2>Контакты</h2>
+            <p>Вы можете забрать товар сами,<br>
+                заехав в наш офис:</p>
+            <img src="http://placehold.it/300x160" width="300" height="160" alt="Карта проезда">
+            <a href="/contacts.html">Заблудились? Напишите нам!</a>
+        </section>
+    </div>
+</main>
+
+<footer class="main-footer">
+    <nav class="footer-navigation">
+        <a class="main-footer-logo">
+            <img src="http://placehold.it/220x70" width="220" height="70" alt="Логотип Техномарт">
+        </a>
+
+        <ul class="footer-navigation-main">
+            <li><a href="/about.html">Компания</a></li>
+            <li><a href="/news.html">Новости</a></li>
+            <li><a href="/catalog.html">Каталог</a></li>
+            <li><a href="/delivery.html">Доставка</a></li>
+            <li><a href="/contacts.html">Контакты</a></li>
         </ul>
 
-        <a href="/about.html">Подробнее о компании</a>
-    </section>
+        <address class="">
+            г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+            +7 (812) 555-05-55
+        </address>
 
-    <section class="contacts">
-        <h2>Контакты</h2>
-        <p>Вы можете забрать товар сами,<br>
-            заехав в наш офис:</p>
-        <img src="http://placehold.it/300x160" width="300" height="160" alt="Карта проезда">
-        <a href="/contacts.html">Заблудились? Напишите нам!</a>
+        <ul class="footer-navigation-section">
+            <li><a href="/materials.html">Материалы</a></li>
+            <li><a href="/technik.html">Техника</a></li>
+            <li><a href="/tools.html">Инструмент</a></li>
+            <li><a href="/special.html">Спецпредложения</a></li>
+        </ul>
+    </nav>
+
+    <section class="footer-copyright">
+        <p>
+            © 2010–2019 Компания «Техномарт»<br>
+            Все права защищены
+        </p>
+
+        <ul class="social">
+            <li><a class="social-links  social-links-vk" href="https://vk.com">VK</a></li>
+            <li><a class="social-links  social-links-fb" href="https://facebook.com">Facebook</a></li>
+            <li><a class="social-links  social-links-insta" href="https://instagram.com">Instagram</a></li>
+        </ul>
+
+        <p>
+            <b>Обратная связь:</b>
+            <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+        </p>
+
+        <p>
+            <b>Разработано:</b>
+            <a class="button" href="https://htmlacademy.ru">htmlacademy.ru</a>
+        </p>
     </section>
-</main>
+</footer>
 
 </body>
 </html>
