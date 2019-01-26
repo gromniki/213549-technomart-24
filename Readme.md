@@ -2,6 +2,24 @@
 
 * Студент: [Роман Голубев](https://up.htmlacademy.ru/htmlcss/24/user/213549).
 * Наставник: [Ярослав Макаренко](https://htmlacademy.ru/profile/id234926).
+---
+## Лекция 1. Вводная
+
+## Лекция 2. Разметка
+
+### Ссылки
+https://ru.bem.info/methodology/html/ – БЭМ
+https://github.com/yoksel/common-words – названия классов на eng
+https://www.kizu.ru/ru/nested-links/ – вложенные ссылки
+http://html5doctor.com/ – HTML5 
+
+### Демки
+https://up.htmlacademy.ru/htmlcss/24/demos/1911 – Разметка Барбершоп
+
+### FAQ
+https://docs.google.com/document/d/193kWggybSx0zLjKiM0WaWpnMrx4ZwB07IhSOHT3kt8U/preview#
+
+
 
 ---
 
