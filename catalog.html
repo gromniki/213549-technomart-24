@@ -2,7 +2,6 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>HTML Academy: Техномарт. Каталог</title>
@@ -10,8 +9,9 @@
 <body>
 
 <header class="main-header">
-    <nav class="main-navigation">
-        <!-- Верхняя полоса с лого -->
+
+    <!-- Верхняя полоса с лого -->
+    <div class="header-top">
         <a class="main-header-logo">
             <img src="http://placehold.it/220x50" width="220" height="50" alt="Логотип Техномарт">
         </a>
@@ -21,9 +21,11 @@
         <a class="main-header-link  main-header-bookmarks" href="/">Закладки: 0</a>
         <a class="main-header-link  main-header-cart  full" href="/">Корзина: 10</a>
         <a class="main-header-order" href="/">Оформить заказ</a>
-        <!-- /Верхняя полоса с лого -->
+    </div>
+    <!-- /Верхняя полоса с лого -->
 
-        <!-- Средний блок с адресом и пользователем -->
+    <!-- Средний блок с адресом и пользователем -->
+    <div class="header-middle">
         <p class="header-h1">Интернет-магазин строительных материалов и инструментов для ремонта</p>
 
         <div class="main-header-contacts">
@@ -34,15 +36,17 @@
         <div class="user-navigation">
             <p class="user-info">
                 <a class="user-profile" href="/profile.html">Равшан Джамшутович</a>
-                <a class="user-exit" href="/exit.html"">Выход</a>
+                <a class="user-exit" href="/exit.html">Выход</a>
             </p>
             <a href="/my-orders.html">Мои заказы</a>
             <a href="/account.html">Личный кабинет</a>
         </div>
-        <!-- /Средний блок с адресом и пользователем -->
+    </div>
+    <!-- /Средний блок с адресом и пользователем -->
 
-        <!-- Навигация сайта -->
-        <ul class="site-navigation">
+    <!-- Навигация сайта -->
+    <nav class="main-navigation">
+        <ul class="main-navigation-list">
             <li><a href="/">Главная</a></li>
             <li><a href="/about.html">Компания</a></li>
             <li><a href="/catalog.html">Каталог</a></li>
@@ -51,8 +55,8 @@
             <li><a href="/delivery.html">Доставка</a></li>
             <li><a href="/contacts.html">Контакты</a></li>
         </ul>
-        <!-- /Навигация сайта -->
     </nav>
+    <!-- /Навигация сайта -->
 </header>
 
 <main class="container">

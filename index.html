@@ -2,7 +2,6 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>HTML Academy: Техномарт</title>
@@ -10,8 +9,8 @@
 <body>
 
 <header class="main-header">
-    <nav class="main-navigation">
-        <!-- Верхняя полоса с лого -->
+    <!-- Верхняя полоса с лого -->
+    <div class="header-top">
         <a class="main-header-logo">
             <img src="http://placehold.it/220x50" width="220" height="50" alt="Логотип Техномарт">
         </a>
@@ -21,9 +20,11 @@
         <a class="main-header-link  main-header-bookmarks" href="/">Закладки: 0</a>
         <a class="main-header-link  main-header-cart" href="/">Корзина: 0</a>
         <a class="main-header-order" href="/">Оформить заказ</a>
-        <!-- /Верхняя полоса с лого -->
+    </div>
+    <!-- /Верхняя полоса с лого -->
 
-        <!-- Средний блок с заголовком и адресом -->
+    <!-- Средний блок с заголовком и адресом -->
+    <div class="header-middle">
         <h1 class="header-h1">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
 
         <div class="main-header-contacts">
@@ -31,14 +32,20 @@
             <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
         </div>
 
-        <div class="user-navigation">
-            <button class="login-link" type="button">Войти</button>
-            <button class="registration-link" type="button">Регистрация</button>
-        </div>
-        <!-- /Средний блок с заголовком и адресом -->
+        <ul class="user-navigation">
+            <li>
+                <a class="login-link" href="/login.html">Войти</a>
+            </li>
+            <li>
+                <a class="registration-link" href="/reg.html">Регистрация</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /Средний блок с заголовком и адресом -->
 
-        <!-- Навигация сайта -->
-        <ul class="site-navigation">
+    <!-- Навигация сайта -->
+    <nav class="main-navigation">
+        <ul class="main-navigation-list">
             <li><a href="/">Главная</a></li>
             <li><a href="/about.html">Компания</a></li>
             <li><a href="/catalog.html">Каталог</a></li>
@@ -47,8 +54,8 @@
             <li><a href="/delivery.html">Доставка</a></li>
             <li><a href="/contacts.html">Контакты</a></li>
         </ul>
-        <!-- /Навигация сайта -->
     </nav>
+    <!-- /Навигация сайта -->
 </header>
 
 <main>
@@ -58,7 +65,7 @@
 
             <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит
                 равнодушными любителей сэкономить на гастарбайтерах.</p>
-            <p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
+            <p>Мы можем доставить ваш товар в самые отдаленные точки России!
                 Техномарт работает со многими транспортными компаниями:</p>
 
             <ul>
