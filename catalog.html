@@ -2,8 +2,6 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <title>HTML Academy: Техномарт. Каталог</title>
 </head>
 <body>
@@ -13,11 +11,13 @@
     <div class="header-top">
         <a class="main-header-logo">Техномарт</a>
 
-        <input class="main-header-search" type="search" placeholder="Поиск">
+        <form class="main-header-search">
+            <input type="search" placeholder="Поиск">
+        </form>
 
-        <a class="main-header-link  main-header-bookmarks" href="/">Закладки: 0</a>
-        <a class="main-header-link  main-header-cart  full" href="/">Корзина: 10</a>
-        <a class="main-header-order" href="/">Оформить заказ</a>
+        <a class="main-header-link  main-header-bookmarks" href="#">Закладки: 0</a>
+        <a class="main-header-link  main-header-cart  full" href="#">Корзина: 10</a>
+        <a class="main-header-order" href="#">Оформить заказ</a>
     </div>
     <!-- /Верхняя полоса с лого -->
 
@@ -32,11 +32,11 @@
 
         <div class="user-navigation">
             <p class="user-info">
-                <a class="user-profile" href="/profile.html">Равшан Джамшутович</a>
-                <a class="user-exit" href="/exit.html">Выход</a>
+                <a class="user-profile" href="profile.html">Равшан Джамшутович</a>
+                <a class="user-exit" href="exit.html">Выход</a>
             </p>
-            <a href="/my-orders.html">Мои заказы</a>
-            <a href="/account.html">Личный кабинет</a>
+            <a href="my-orders.html">Мои заказы</a>
+            <a href="account.html">Личный кабинет</a>
         </div>
     </div>
     <!-- /Средний блок с адресом и пользователем -->
@@ -44,13 +44,13 @@
     <!-- Навигация сайта -->
     <nav class="main-navigation">
         <ul class="main-navigation-list">
-            <li><a href="/">Главная</a></li>
-            <li><a href="/about.html">Компания</a></li>
-            <li><a href="/catalog.html">Каталог</a></li>
-            <li><a href="/news.html">Новости</a></li>
-            <li><a href="/special.html">Спецпредложения</a></li>
-            <li><a href="/delivery.html">Доставка</a></li>
-            <li><a href="/contacts.html">Контакты</a></li>
+            <li><a href="">Главная</a></li>
+            <li><a href="about.html">Компания</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="special.html">Спецпредложения</a></li>
+            <li><a href="delivery.html">Доставка</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
         </ul>
     </nav>
     <!-- /Навигация сайта -->
@@ -60,14 +60,14 @@
     <h1 class="page-title">Перфораторы</h1>
     <section class="breadcrumbs">
         <ul class="breadcrumbs-list">
-            <li><a href="/">Главная</a></li>
+            <li><a href="index.html">Главная</a></li>
             <li><a href="#">Каталог</a></li>
-            <li><a href="/tools.html">Инструмент</a></li>
+            <li><a href="tools.html">Инструмент</a></li>
             <li class="breadcrumbs-current">Перфораторы</li>
         </ul>
     </section>
 
-    <form class="filter" method="post" action="/">
+    <form class="filter">
         <h2 class="visually-hidden">Фильтр товаров</h2>
         <div class="brends">
             <h3>Производители:</h3>
@@ -112,7 +112,7 @@
         <h2 class="visually-hidden">Список перфораторов</h2>
         <ul class="catalog-list">
             <li class="catalog-item">
-                <a class="catalog-item-image" href="/catalog-item.html">
+                <a class="catalog-item-image" href="catalog-item.html">
                     <img src="http://placehold.it/220x170" width="220" height="170" alt="Перфоратор BOSCH BFG 3000">
                 </a>
                 <b class="title">Перфоратор BOSCH BFG 3000</b>
@@ -125,7 +125,7 @@
                 </div>
             </li>
             <li class="catalog-item">
-                <a class="catalog-item-image" href="/catalog-item.html">
+                <a class="catalog-item-image" href="catalog-item.html">
                     <img src="http://placehold.it/220x170" width="220" height="170" alt="Перфоратор BOSCH BFG 6000">
                 </a>
                 <b class="title">Перфоратор BOSCH BFG 6000</b>
@@ -138,7 +138,7 @@
                 </div>
             </li>
             <li class="catalog-item  catalog-item-badge">
-                <a class="catalog-item-image" href="/catalog-item.html">
+                <a class="catalog-item-image" href="catalog-item.html">
                     <img src="http://placehold.it/220x170" width="220" height="170" alt="Перфоратор BOSCH BFG 2000">
                 </a>
                 <b class="title">Перфоратор BOSCH BFG 2000</b>
@@ -160,11 +160,11 @@
         <a class="main-footer-logo">Техномарт</a>
 
         <ul class="footer-navigation-main">
-            <li><a href="/about.html">Компания</a></li>
-            <li><a href="/news.html">Новости</a></li>
-            <li><a href="/catalog.html">Каталог</a></li>
-            <li><a href="/delivery.html">Доставка</a></li>
-            <li><a href="/contacts.html">Контакты</a></li>
+            <li><a href="about.html">Компания</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="delivery.html">Доставка</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
         </ul>
 
         <address class="">
@@ -173,10 +173,10 @@
         </address>
 
         <ul class="footer-navigation-section">
-            <li><a href="/materials.html">Материалы</a></li>
-            <li><a href="/technik.html">Техника</a></li>
-            <li><a href="/tools.html">Инструмент</a></li>
-            <li><a href="/special.html">Спецпредложения</a></li>
+            <li><a href="materials.html">Материалы</a></li>
+            <li><a href="technik.html">Техника</a></li>
+            <li><a href="tools.html">Инструмент</a></li>
+            <li><a href="special.html">Спецпредложения</a></li>
         </ul>
     </section>
 

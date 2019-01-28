@@ -2,8 +2,6 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <title>HTML Academy: Техномарт</title>
 </head>
 <body>
@@ -13,11 +11,13 @@
     <div class="header-top">
         <a class="main-header-logo">Техномарт</a>
 
-        <input class="main-header-search" type="search" placeholder="Поиск">
+        <form class="main-header-search">
+            <input type="search" placeholder="Поиск">
+        </form>
 
-        <a class="main-header-link  main-header-bookmarks" href="/">Закладки: 0</a>
-        <a class="main-header-link  main-header-cart" href="/">Корзина: 0</a>
-        <a class="main-header-order" href="/">Оформить заказ</a>
+        <a class="main-header-link  main-header-bookmarks" href="#">Закладки: 0</a>
+        <a class="main-header-link  main-header-cart" href="#">Корзина: 0</a>
+        <a class="main-header-order" href="#">Оформить заказ</a>
     </div>
     <!-- /Верхняя полоса с лого -->
 
@@ -32,10 +32,10 @@
 
         <ul class="user-navigation">
             <li>
-                <a class="login-link" href="/login.html">Войти</a>
+                <a class="login-link" href="login.html">Войти</a>
             </li>
             <li>
-                <a class="registration-link" href="/reg.html">Регистрация</a>
+                <a class="registration-link" href="reg.html">Регистрация</a>
             </li>
         </ul>
     </div>
@@ -44,13 +44,13 @@
     <!-- Навигация сайта -->
     <nav class="main-navigation">
         <ul class="main-navigation-list">
-            <li><a href="/">Главная</a></li>
-            <li><a href="/about.html">Компания</a></li>
-            <li><a href="/catalog.html">Каталог</a></li>
-            <li><a href="/news.html">Новости</a></li>
-            <li><a href="/special.html">Спецпредложения</a></li>
-            <li><a href="/delivery.html">Доставка</a></li>
-            <li><a href="/contacts.html">Контакты</a></li>
+            <li><a href="">Главная</a></li>
+            <li><a href="about.html">Компания</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="special.html">Спецпредложения</a></li>
+            <li><a href="delivery.html">Доставка</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
         </ul>
     </nav>
     <!-- /Навигация сайта -->
@@ -72,7 +72,7 @@
                 <li>ЖелДорЭкспедиция</li>
             </ul>
 
-            <a href="/about.html">Подробнее о компании</a>
+            <a href="about.html">Подробнее о компании</a>
         </section>
 
         <section class="contacts">
@@ -82,7 +82,7 @@
             <a class="contacts-map" href="#">
                 <img src="http://placehold.it/300x160" width="300" height="160" alt="Карта проезда">
             </a>
-            <a href="/contacts.html">Заблудились? Напишите нам!</a>
+            <a href="contacts.html">Заблудились? Напишите нам!</a>
         </section>
     </div>
 </main>
@@ -93,29 +93,30 @@
         <a class="main-footer-logo">Техномарт</a>
 
         <ul class="footer-navigation-main">
-            <li><a href="/about.html">Компания</a></li>
-            <li><a href="/news.html">Новости</a></li>
-            <li><a href="/catalog.html">Каталог</a></li>
-            <li><a href="/delivery.html">Доставка</a></li>
-            <li><a href="/contacts.html">Контакты</a></li>
+            <li><a href="about.html">Компания</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="delivery.html">Доставка</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
         </ul>
     </section>
 
     <section class="footer-middle-section">
+        <h2 class="visually-hidden">Адрес компании и категории товаров</h2>
         <address class="footer-address">
             г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
             +7 (812) 555-05-55
         </address>
 
         <ul class="footer-navigation-section">
-            <li><a href="/materials.html">Материалы</a></li>
-            <li><a href="/technik.html">Техника</a></li>
-            <li><a href="/tools.html">Инструмент</a></li>
-            <li><a href="/special.html">Спецпредложения</a></li>
+            <li><a href="materials.html">Материалы</a></li>
+            <li><a href="technik.html">Техника</a></li>
+            <li><a href="tools.html">Инструмент</a></li>
+            <li><a href="special.html">Спецпредложения</a></li>
         </ul>
     </section>
 
-    <section class="footer-bottom-section">
+    <!--<section class="footer-bottom-section">
         <h2 class="visually-hidden">Копирайты и соцсети</h2>
         <p class="footer-copyright">
             © 2010–2019 Компания «Техномарт»<br>
@@ -137,6 +138,36 @@
             <b>Разработано:</b>
             <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
         </p>
+    </section>-->
+
+    <section class="footer-bottom-section">
+        <h2 class="visually-hidden">Контактная информация</h2>
+        <section class="footer-copyright">
+            <h3 class="visually-hidden">Копирайты</h3>
+            <p>
+                © 2010–2019 Компания «Техномарт»<br>
+                Все права защищены
+            </p>
+        </section>
+
+        <section class="footer-social">
+            <h3 class="visually-hidden">Социальные сети</h3>
+            <ul class="footer-social-list">
+                <li><a class="social-links  social-links-vk" href="https://vk.com">VK</a></li>
+                <li><a class="social-links  social-links-fb" href="https://facebook.com">Facebook</a></li>
+                <li><a class="social-links  social-links-insta" href="https://instagram.com">Instagram</a></li>
+            </ul>
+        </section>
+
+        <section class="footer-feedback">
+            <h3>Обратная связь</h3>
+            <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+        </section>
+
+        <section class="footer-develop">
+            <h3>Разработано:</h3>
+            <a class="btn" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+        </section>
     </section>
 </footer>
 
