@@ -6,12 +6,12 @@
 ## Лекция 1. Вводная
 
 ## Лекция 2. Разметка
-
 ### Ссылки
 https://ru.bem.info/methodology/html/ – БЭМ
 https://github.com/yoksel/common-words – названия классов на eng
 https://www.kizu.ru/ru/nested-links/ – вложенные ссылки
 http://html5doctor.com/ – HTML5
+http://alexbrush.com/seo-zagolovki-stranits-pravilnye-tegi-h1-i-h2.html – SEO заголовки H1 и H2
 
 ### Кодгайды
 http://codeguide.academy/#html-syntax
@@ -24,6 +24,17 @@ https://up.htmlacademy.ru/htmlcss/24/demos/1915 – Карточка товар�
 
 ### FAQ
 https://docs.google.com/document/d/193kWggybSx0zLjKiM0WaWpnMrx4ZwB07IhSOHT3kt8U/preview#
+
+## Лекция 3. Работа с графикой
+### Изображения
+https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization?hl=ru – оптимизация изображений
+https://htmlacademy.ru/blog/113-image-formats – Форматы изображений
+https://htmlacademy.ru/blog/153-content-or-decor-img – Как отличить контентное изображение от декоративного
+
+### Оптимизация
+https://imagecompressor.com/ru/ – хорошо сжимает JPG
+https://tinypng.com/ – хорошо сжимает PNG
+https://jakearchibald.github.io/svgomg/ – оптимизация SVG
 
 
 
