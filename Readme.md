@@ -4,6 +4,14 @@
 * Наставник: [Ярослав Макаренко](https://htmlacademy.ru/profile/id234926).
 ---
 ## Лекция 1. Вводная
+https://isqua.ru/blog/2017/04/13/kommientiruitie-svoi-pull-riekviesty/ – Комментируйте свои пулл-реквесты
+https://isqua.ru/blog/2017/04/12/kak-otkryt-pull-riekviest-v-github-i-nie-oblazhatsia/ – Как открыть пулл-реквест в Github и не облажаться
+https://habr.com/ru/company/voximplant/blog/276695/ – Как оформлять коммиты
+https://adaptivepatchwork.com/2012/03/01/mind-the-end-of-your-line/ – LF vs CRLF
+
+https://www.w3.org/TR/html/ – спецификация (оригинал)
+http://spec.piraruco.com/html5/index.htm – спецификация (перевод)
+http://www.colorglare.com/2014/02/03/to-close-or-not-to-close.html
 
 ## Лекция 2. Разметка
 ### Ссылки
