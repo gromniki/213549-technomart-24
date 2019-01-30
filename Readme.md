@@ -30,6 +30,7 @@ https://docs.google.com/document/d/193kWggybSx0zLjKiM0WaWpnMrx4ZwB07IhSOHT3kt8U/
 https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization?hl=ru – оптимизация изображений
 https://htmlacademy.ru/blog/113-image-formats – Форматы изображений
 https://htmlacademy.ru/blog/153-content-or-decor-img – Как отличить контентное изображение от декоративного
+https://www.sarasoueidan.com/tags/svg/ – Всё о SVG
 
 ### Оптимизация
 https://imagecompressor.com/ru/ – хорошо сжимает JPG

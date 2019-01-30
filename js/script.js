@@ -6,5 +6,3 @@ window.addEventListener('DOMContentLoaded', function() {
 
 
 
-
-
