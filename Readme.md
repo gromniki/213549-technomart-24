@@ -4,46 +4,46 @@
 * Наставник: [Ярослав Макаренко](https://htmlacademy.ru/profile/id234926).
 ---
 ## Лекция 1. Вводная
-https://isqua.ru/blog/2017/04/13/kommientiruitie-svoi-pull-riekviesty/ – Комментируйте свои пулл-реквесты
-https://isqua.ru/blog/2017/04/12/kak-otkryt-pull-riekviest-v-github-i-nie-oblazhatsia/ – Как открыть пулл-реквест в Github и не облажаться
-https://habr.com/ru/company/voximplant/blog/276695/ – Как оформлять коммиты
-https://adaptivepatchwork.com/2012/03/01/mind-the-end-of-your-line/ – LF vs CRLF
+- https://isqua.ru/blog/2017/04/13/kommientiruitie-svoi-pull-riekviesty/ – Комментируйте свои пулл-реквесты
+- https://isqua.ru/blog/2017/04/12/kak-otkryt-pull-riekviest-v-github-i-nie-oblazhatsia/ – Как открыть пулл-реквест в Github и не облажаться
+- https://habr.com/ru/company/voximplant/blog/276695/ – Как оформлять коммиты
+- https://adaptivepatchwork.com/2012/03/01/mind-the-end-of-your-line/ – LF vs CRLF
 
-https://www.w3.org/TR/html/ – спецификация (оригинал)
-http://spec.piraruco.com/html5/index.htm – спецификация (перевод)
-http://www.colorglare.com/2014/02/03/to-close-or-not-to-close.html
+- https://www.w3.org/TR/html/ – спецификация (оригинал)
+- http://spec.piraruco.com/html5/index.htm – спецификация (перевод)
+- http://www.colorglare.com/2014/02/03/to-close-or-not-to-close.html
 
 ## Лекция 2. Разметка
 ### Ссылки
-https://ru.bem.info/methodology/html/ – БЭМ
-https://github.com/yoksel/common-words – названия классов на eng
-https://www.kizu.ru/ru/nested-links/ – вложенные ссылки
-http://html5doctor.com/ – HTML5
-http://alexbrush.com/seo-zagolovki-stranits-pravilnye-tegi-h1-i-h2.html – SEO заголовки H1 и H2
+- https://ru.bem.info/methodology/html/ – БЭМ
+- https://github.com/yoksel/common-words – названия классов на eng
+- https://www.kizu.ru/ru/nested-links/ – вложенные ссылки
+- http://html5doctor.com/ – HTML5
+- http://alexbrush.com/seo-zagolovki-stranits-pravilnye-tegi-h1-i-h2.html – SEO заголовки H1 и H2
 
 ### Кодгайды
-http://codeguide.academy/#html-syntax
-https://github.com/htmlacademy/codeguide/blob/master/csscomb.json
+- http://codeguide.academy/#html-syntax
+- https://github.com/htmlacademy/codeguide/blob/master/csscomb.json
 
 ### Демки
-https://up.htmlacademy.ru/htmlcss/24/demos/1911 – Главная Барбершоп
-https://up.htmlacademy.ru/htmlcss/24/demos/1913 – Каталог Барбершоп
-https://up.htmlacademy.ru/htmlcss/24/demos/1915 – Карточка товара Барбершоп
+- https://up.htmlacademy.ru/htmlcss/24/demos/1911 – Главная Барбершоп
+- https://up.htmlacademy.ru/htmlcss/24/demos/1913 – Каталог Барбершоп
+- https://up.htmlacademy.ru/htmlcss/24/demos/1915 – Карточка товара Барбершоп
 
 ### FAQ
-https://docs.google.com/document/d/193kWggybSx0zLjKiM0WaWpnMrx4ZwB07IhSOHT3kt8U/preview#
+- https://docs.google.com/document/d/193kWggybSx0zLjKiM0WaWpnMrx4ZwB07IhSOHT3kt8U/preview#
 
 ## Лекция 3. Работа с графикой
 ### Изображения
-https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization?hl=ru – оптимизация изображений
-https://htmlacademy.ru/blog/113-image-formats – Форматы изображений
-https://htmlacademy.ru/blog/153-content-or-decor-img – Как отличить контентное изображение от декоративного
-https://www.sarasoueidan.com/tags/svg/ – Всё о SVG
+- https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization?hl=ru – оптимизация изображений
+- https://htmlacademy.ru/blog/113-image-formats – Форматы изображений
+- https://htmlacademy.ru/blog/153-content-or-decor-img – Как отличить контентное изображение от декоративного
+- https://www.sarasoueidan.com/tags/svg/ – Всё о SVG
 
 ### Оптимизация
-https://imagecompressor.com/ru/ – хорошо сжимает JPG
-https://tinypng.com/ – хорошо сжимает PNG
-https://jakearchibald.github.io/svgomg/ – оптимизация SVG
+- https://imagecompressor.com/ru/ – хорошо сжимает JPG
+- https://tinypng.com/ – хорошо сжимает PNG
+- https://jakearchibald.github.io/svgomg/ – оптимизация SVG
 
 
 
