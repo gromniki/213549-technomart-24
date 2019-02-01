@@ -8,13 +8,14 @@
 - https://isqua.ru/blog/2017/04/12/kak-otkryt-pull-riekviest-v-github-i-nie-oblazhatsia/ – Как открыть пулл-реквест в Github и не облажаться
 - https://habr.com/ru/company/voximplant/blog/276695/ – Как оформлять коммиты
 - https://adaptivepatchwork.com/2012/03/01/mind-the-end-of-your-line/ – LF vs CRLF
-
-- https://www.w3.org/TR/html/ – спецификация (оригинал)
-- http://spec.piraruco.com/html5/index.htm – спецификация (перевод)
 - http://www.colorglare.com/2014/02/03/to-close-or-not-to-close.html
 
+### Спецификация
+- https://www.w3.org/TR/html/ – спецификация (оригинал)
+- http://spec.piraruco.com/html5/index.htm – спецификация (перевод)
+
+
 ## Лекция 2. Разметка
-### Ссылки
 - https://ru.bem.info/methodology/html/ – БЭМ
 - https://github.com/yoksel/common-words – названия классов на eng
 - https://www.kizu.ru/ru/nested-links/ – вложенные ссылки
@@ -33,6 +34,7 @@
 ### FAQ
 - https://docs.google.com/document/d/193kWggybSx0zLjKiM0WaWpnMrx4ZwB07IhSOHT3kt8U/preview#
 
+
 ## Лекция 3. Работа с графикой
 ### Изображения
 - https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization?hl=ru – оптимизация изображений
@@ -45,6 +47,9 @@
 - https://tinypng.com/ – хорошо сжимает PNG
 - https://jakearchibald.github.io/svgomg/ – оптимизация SVG
 
+
+## Лекция 4. Доступность и формы
+- https://up.htmlacademy.ru/htmlcss/24/module/4/prepare/1 – Введение в CSS
 
 
 ---
