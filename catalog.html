@@ -69,46 +69,58 @@
     </ul>
   </section>
 
-  <form class="filter">
+  <section class="filters">
     <h2 class="visually-hidden">Фильтр товаров</h2>
-    <div class="brends">
-      <h3>Производители:</h3>
-      <div class="brends-item">
-        <input type="checkbox" name="bosch" id="bosch" value="Bosch" checked>
-        <label for="bosch">Bosch</label>
-      </div>
-      <div class="brends-item">
-        <input type="checkbox" name="interskol" id="interskol" value="Интерскол">
-        <label for="interskol">Интерскол</label>
-      </div>
-      <div class="brends-item">
-        <input type="checkbox" name="makita" id="makita" value="Makita" checked>
-        <label for="makita">Makita</label>
-      </div>
-      <div class="brends-item">
-        <input type="checkbox" name="dewalt" id="dewalt" value="Dewalt">
-        <label for="dewalt">Dewalt</label>
-      </div>
-      <div class="brends-item">
-        <input type="checkbox" name="hitachi" id="hitachi" value="Hitachi">
-        <label for="hitachi">Hitachi</label>
-      </div>
-    </div>
+    <form class="filter" method="get" action="https://echo.htmlacademy.ru">
 
-    <div class="power">
-      <h3>Питание:</h3>
-      <div class="power-item">
-        <input type="radio" name="accum" id="accum" value="Аккумуляторные" checked>
-        <label for="accum">Аккумуляторные</label>
-      </div>
-      <div class="power-item">
-        <input type="radio" name="power" id="power" value="Сетевые">
-        <label for="power">Сетевые</label>
-      </div>
-    </div>
+      <fieldset class="brends">
+        <legend>Производители:</legend>
+        <ul class="brends-list">
+          <li class="filter-option">
+            <input class="visually-hidden  filter-input  filter-input-checkbox" type="checkbox" name="bosch" id="bosch"
+                   value="Bosch" checked>
+            <label for="bosch">Bosch</label>
+          </li>
+          <li class="filter-option">
+            <input class="visually-hidden  filter-input  filter-input-checkbox" type="checkbox" name="interskol"
+                   id="interskol" value="Интерскол">
+            <label for="interskol">Интерскол</label>
+          </li>
+          <li class="filter-option">
+            <input class="visually-hidden  filter-input  filter-input-checkbox" type="checkbox" name="makita"
+                   id="makita" value="Makita" checked>
+            <label for="makita">Makita</label>
+          </li>
+          <li class="filter-option">
+            <input class="visually-hidden  filter-input  filter-input-checkbox" type="checkbox" name="dewalt"
+                   id="dewalt" value="Dewalt">
+            <label for="dewalt">Dewalt</label>
+          </li>
+          <li class="filter-option">
+            <input class="visually-hidden  filter-input  filter-input-checkbox" type="checkbox" name="hitachi"
+                   id="hitachi" value="Hitachi">
+            <label for="hitachi">Hitachi</label>
+          </li>
+        </ul>
+      </fieldset>
 
-    <button class="btn  btn-show" type="submit">Показать</button>
-  </form>
+      <fieldset class="power">
+        <legend>Питание:</legend>
+        <ul class="power-list">
+          <li class="filter-option">
+            <input class="visually-hidden  filter-input  filter-input-radio" type="radio" name="power-group" id="accum" value="Аккумуляторные" checked>
+            <label for="accum">Аккумуляторные</label>
+          </li>
+          <li class="filter-option">
+            <input type="radio" name="power-group" id="power" value="Сетевые">
+            <label for="power">Сетевые</label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <button class="btn  btn-filter" type="submit">Показать</button>
+    </form>
+  </section>
 
   <section class="catalog">
     <h2 class="visually-hidden">Список перфораторов</h2>
