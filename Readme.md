@@ -52,6 +52,8 @@
 - https://up.htmlacademy.ru/htmlcss/24/module/4/prepare/1 – Введение в CSS
 - http://shouldiprefix.com/ – What CSS to prefix?
 
+### Демки
+- https://up.htmlacademy.ru/htmlcss/24/demos/1923 – Доступная разметка главной Барбершопа
 
 
 ---
