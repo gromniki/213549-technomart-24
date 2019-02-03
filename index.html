@@ -77,44 +77,44 @@
       </li>
     </ul>
 
-    <div class="category-and-slider">
+    <div class="features">
       <div class="slider">
-        <!-- Сам слайдер -->
-        <ul class="slider-list">
-          <li class="slider-item">
-            <img src="img/sliders/main-slider-01.jpg" width="620" height="266" alt="Слайдер 1">
-            <h3>Дрели</h3>
-            <p>Соседям на радость!</p>
-            <a href="catalog.html">Открыть каталог</a>
-          </li>
-          <li class="slider-item">
-            <img src="img/sliders/main-slider-02.jpg" width="620" height="266" alt="Слайдер 2">
-            <h3>Перфораторы</h3>
-            <p>Настоящие мужские игрушки</p>
-            <a href="catalog.html">Открыть каталог</a>
-          </li>
-        </ul>
-        <!-- Стрелки -->
-        <button class="next-arrow" type="button">Вперёд</button>
-        <button class="prev-arrow" type="button">Назад</button>
-
-        <!-- Точки -->
-        <button class="dots" type="button">Слайд 1</button>
-        <button class="dots" type="button">Слайд 2</button>
+        <input type="radio" id="btn-1" name="toggle" checked>
+        <input type="radio" id="btn-2" name="toggle">
+        <input type="radio" id="btn-3" name="toggle">
+        <div class="slider-controls">
+          <label for="btn-1"></label>
+          <label for="btn-2"></label>
+          <label for="btn-3"></label>
+        </div>
+        <div class="slider-inner">
+          <ul class="slider-slides">
+            <li class="slider-item">
+              <img src="img/sliders/main-slider-01.jpg" width="620" height="266" alt="Слайдер 1">
+              <h3>Дрели</h3>
+              <p>Соседям на радость!</p>
+              <a href="catalog.html">Открыть каталог</a>
+            </li>
+            <li class="slider-item">
+              <img src="img/sliders/main-slider-02.jpg" width="620" height="266" alt="Слайдер 2">
+              <h3>Перфораторы</h3>
+              <p>Настоящие мужские игрушки</p>
+              <a href="catalog.html">Открыть каталог</a>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div class="category">
-        <ul class="category-list">
-          <li class="category-item  category-item-discount">
-            <h3>Скидки 50%</h3>
-            <a class="category-link" href="materials.html">На 350 товаров</a>
-          </li>
-          <li class="category-item  category-item-delivery">
-            <h3>Доставка</h3>
-            <a class="category-link" href="tools.html">Бесплатно</a>
-          </li>
-        </ul>
-      </div>
+      <ul class="features-list">
+        <li class="features-item  features-item-discount">
+          <h3>Скидки 50%</h3>
+          <a class="features-link" href="materials.html">На 350 товаров</a>
+        </li>
+        <li class="features-item  features-item-delivery">
+          <h3>Доставка</h3>
+          <a class="features-link" href="tools.html">Бесплатно</a>
+        </li>
+      </ul>
     </div>
   </section>
 
@@ -198,15 +198,38 @@
       Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
 
     <!-- Слайдер сервисов -->
-    <div class="services-slider">
-      <ul class="services-slider-list">
-        <li class="services-slider-item">
-          <h3>Доставка</h3>
-          <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо
-            заработаем, поднимая его на ваш этаж!</p>
-          <img src="img/delivery.png" width="468" height="261" alt="Доставка">
-        </li>
-      </ul>
+    <div class="slider">
+      <input type="radio" id="btn-1" name="toggle" checked>
+      <input type="radio" id="btn-2" name="toggle">
+      <input type="radio" id="btn-3" name="toggle">
+      <div class="slider-controls">
+        <label for="btn-1"></label>
+        <label for="btn-2"></label>
+        <label for="btn-3"></label>
+      </div>
+      <div class="slider-inner">
+        <ul class="slider-slides">
+          <li class="services-slider-item">
+            <h3>Доставка</h3>
+            <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо
+              заработаем, поднимая его на ваш этаж!</p>
+            <img src="img/delivery.png" width="468" height="261" alt="Доставка">
+          </li>
+          <li class="services-slider-item">
+            <h3>Гарантия</h3>
+            <p>Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его
+              возгаранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.<br>
+              Дом уж восстановите как-нибудь сами.</p>
+            <img src="img/guarantee.png" width="389" height="283" alt="Гарантия">
+          </li>
+          <li class="services-slider-item">
+            <h3>Кредит</h3>
+            <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
+            <a class="btn" href="#">Отправить заявку</a>
+            <img src="img/credit.png" width="465" height="285" alt="Кредит">
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
 
