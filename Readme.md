@@ -10,6 +10,9 @@
 - https://adaptivepatchwork.com/2012/03/01/mind-the-end-of-your-line/ – LF vs CRLF
 - http://www.colorglare.com/2014/02/03/to-close-or-not-to-close.html
 
+### GitHub
+- https://htmlacademy.ru/blog/213-github-in-academy – Гитхаб в Академии
+
 ### Спецификация
 - https://www.w3.org/TR/html/ – спецификация (оригинал)
 - http://spec.piraruco.com/html5/index.htm – спецификация (перевод)
@@ -54,7 +57,11 @@
 
 ### Демки
 - https://up.htmlacademy.ru/htmlcss/24/demos/1923 – Доступная разметка главной Барбершопа
+- https://up.htmlacademy.ru/htmlcss/24/demos/1929 – Доступная разметка каталога Барбершопа
 
+
+### Шрифты
+https://www.copypastecharacter.com/ – Сервис спецсимволов
 
 ---
 
