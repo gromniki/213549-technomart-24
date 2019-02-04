@@ -58,6 +58,12 @@
 ### Демки
 - https://up.htmlacademy.ru/htmlcss/24/demos/1923 – Доступная разметка главной Барбершопа
 - https://up.htmlacademy.ru/htmlcss/24/demos/1929 – Доступная разметка каталога Барбершопа
+- https://up.htmlacademy.ru/htmlcss/24/demos/1925 – Фокус по порядку
+- https://up.htmlacademy.ru/htmlcss/24/demos/1927 – Попадание в фокус
+- https://up.htmlacademy.ru/htmlcss/24/demos/2067 – игра «Найди кнопку»
+- https://up.htmlacademy.ru/htmlcss/24/demos/1917 – Формы
+- https://up.htmlacademy.ru/htmlcss/24/demos/1919 – Преимущества текста
+- https://up.htmlacademy.ru/htmlcss/24/demos/1921 – Прятки текста
 
 
 ### Шрифты
