@@ -1,5 +1,27 @@
 @charset "UTF-8";
 
-.main-header {
-  background-color: #cacaca;
+html {
+  box-sizing: border-box;
+
+  /*font-family: 'PT Sans', sans-serif;*/
+  /*font-family: 'Cuprum', sans-serif;*/
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0
+}
+
+a {
+  text-decoration: none
+}
+
+img {
+  max-width: 100%
+}
+
