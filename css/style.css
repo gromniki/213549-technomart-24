@@ -2,9 +2,7 @@
 
 html {
   box-sizing: border-box;
-
-  /*font-family: 'PT Sans', sans-serif;*/
-  /*font-family: 'Cuprum', sans-serif;*/
+  /*font-family: "PT Sans",  Arial, sans-serif;*/
 }
 
 *,
@@ -15,14 +13,11 @@ html {
 
 body {
   margin: 0;
-  font-family: "PT Sans Narrow", Arial, sans-serif;
-
-  font-size: 14px;
-  font-weight: 700;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
   line-height: 24px;
-  color: #ffffff;
-  text-transform: uppercase;
-
+  color: #000000;
 }
 
 a {
@@ -33,3 +28,30 @@ img {
   max-width: 100%;
 }
 
+
+.main-header {
+  background-color: #f4f7f9;
+}
+
+.header-top {
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #293449;
+}
+
+.header-top a {
+  color: inherit;
+}
+
+.main-header-search input {
+  color: #ffffff;
+  background-color: transparent;
+  border: 0;
+}
+
+.header-middle h1 {
+  font-size: 16px;
+  font-style: italic;
+  line-height: 23px;
+  color: #ee3643;
+}
