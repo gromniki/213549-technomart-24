@@ -10,11 +10,12 @@
   <!-- Верхняя полоса с лого -->
   <div class="header-top">
     <a class="main-header-logo" href="index.html">
-      <img src="img/logo-technomart.svg" width="100" height="50" alt="Техномарт">
+      <img src="img/logo-technomart.svg" width="100" height="50" alt="Логотип Техномарт">
     </a>
 
-    <form class="main-header-search">
-      <input type="search" placeholder="Поиск">
+    <form class="main-header-search" action="https://echo.htmlacademy.ru" method="get">
+      <input type="search" name="search" placeholder="Поиск">
+      <button class="hidden" type="submit">Искать</button>
     </form>
 
     <a class="main-header-link  main-header-bookmarks" href="#">Закладки: 0</a>
@@ -171,9 +172,9 @@
 </main>
 
 <footer class="main-footer">
-  <section class="footer-navigation">
-    <a class="main-footer-logo" href="index.html">
-      <img src="img/logo-technomart.svg" width="100" height="50" alt="Техномарт">
+  <div class="footer-navigation">
+    <a class="main-footer-logo">
+      <img src="img/logo-technomart.svg" width="100" height="50" alt="Логотип Техномарт">
     </a>
 
     <ul class="footer-navigation-main">
@@ -183,8 +184,10 @@
       <li><a href="delivery.html">Доставка</a></li>
       <li><a href="contacts.html">Контакты</a></li>
     </ul>
+  </div>
 
-    <address class="">
+  <div class="footer-middle-section">
+    <address class="footer-address">
       г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
       +7 (812) 555-05-55
     </address>
@@ -195,14 +198,15 @@
       <li><a href="tools.html">Инструмент</a></li>
       <li><a href="special.html">Спецпредложения</a></li>
     </ul>
-  </section>
+  </div>
 
-  <section class="footer-copyright">
-    <h2 class="visually-hidden">Копирайты и соцсети</h2>
-    <p>
-      © 2010–2019 Компания «Техномарт»<br>
-      Все права защищены
-    </p>
+  <div class="footer-bottom-section">
+    <div class="footer-copyright">
+      <p>
+        © 2010–2019 Компания «Техномарт»<br>
+        Все права защищены
+      </p>
+    </div>
 
     <div class="footer-social">
       <ul class="footer-social-list">
@@ -221,16 +225,16 @@
       </ul>
     </div>
 
-    <p>
-      <b>Обратная связь:</b>
+    <div class="footer-feedback">
+      <b>Обратная связь</b>
       <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-    </p>
+    </div>
 
-    <p>
+    <div class="footer-develop">
       <b>Разработано:</b>
-      <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
-    </p>
-  </section>
+      <a class="btn" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+    </div>
+  </div>
 </footer>
 
 <section class="modal  modal-added-product">
