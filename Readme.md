@@ -65,9 +65,27 @@
 - https://up.htmlacademy.ru/htmlcss/24/demos/1919 – Преимущества текста
 - https://up.htmlacademy.ru/htmlcss/24/demos/1921 – Прятки текста
 
-
 ### Шрифты
-https://www.copypastecharacter.com/ – Сервис спецсимволов
+- https://www.copypastecharacter.com/ – Сервис спецсимволов
+- https://fontstorage.com/blog/about-font-face-part-one/ – Подключение нестандартных шрифтов. Часть 1
+- https://fontstorage.com/blog/about-font-face-part-two/ – Подключение нестандартных шрифтов. Часть 2
+- https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization?hl=ru – Оптимизация шрифтов
+- https://medium.com/devschacht/david-gilbertson-rems-and-ems-and-why-you-probably-dont-need-them-3b2b1e785787 – Ремы, емы и отказ от них
+- https://htmlacademy.ru/blog/64-about-normalize-css – О normalize.css
+- https://www.youtube.com/watch?v=KGYmOlNteas – HTML Шорты. Нормальный сброс
+
+
+## Лекция 5. Введение в CSS
+- https://up.htmlacademy.ru/htmlcss/24/module/5/prepare/1 – Блочная модель
+- https://up.htmlacademy.ru/htmlcss/24/module/5/prepare/2 – Флексбокс, часть 1
+
+### Спецификация в CSS
+- https://css-live.ru/css/nikto-ne-znaet-css-specifichnost-ne-kaskad.html – Никто не знает CSS: специфичность — не каскад
+
+### Демки
+- https://up.htmlacademy.ru/htmlcss/24/demos/1933 – Базовая стилизация главной Барбершопа 
+- https://up.htmlacademy.ru/htmlcss/24/demos/1935 – Базовая стилизация каталога Барбершопа 
+- https://up.htmlacademy.ru/htmlcss/24/demos/1931 – Базовая стилизация карточки товара Барбершопа 
 
 ---
 
