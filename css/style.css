@@ -2,7 +2,6 @@
 
 html {
   box-sizing: border-box;
-  /*font-family: "PT Sans",  Arial, sans-serif;*/
 }
 
 *,
@@ -28,7 +27,34 @@ img {
   max-width: 100%;
 }
 
+h2 {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
 
+.services p,
+.about p,
+.contacts p {
+  font-family: "PT Sans",  Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: normal;
+}
+
+/* Buttons */
+.btn {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #ee3643;
+}
+
+
+/* HEADER */
 .main-header {
   color: #000000;
   background-color: #f4f7f9;
@@ -44,13 +70,18 @@ img {
   color: inherit;
 }
 
-.main-header-logo {
+.main-header-logo,
+.main-footer-logo {
   background-color: #ee3643;
   box-shadow: inset 0 -5px 0 0 rgba(0, 0, 0, 0.24);
 }
 
-.main-header-logo:hover {
+.main-header-logo:hover,
+.main-header-logo:focus,
+.main-footer-logo:hover,
+.main-footer-logo:focus {
   background-color: #ca2c37;
+  outline: none;
 }
 
 .main-header-search input {
@@ -74,9 +105,12 @@ img {
   color: #ffffff;
 }
 
-.main-header-link:focus,
 .main-header-link:active {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.main-header-link.full {
+  background-color: #ee3643;
 }
 
 .main-header-order {
@@ -84,8 +118,10 @@ img {
   background-color: #63a63e;
 }
 
-.main-header-order:hover {
+.main-header-order:hover,
+.main-header-order:focus {
   background-color: #5fbb2d;
+  outline: none;
 }
 
 .main-header-order:active {
@@ -120,20 +156,40 @@ address {
   color: #32425c;
 }
 
+.user-navigation > a {
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425c;
+  text-decoration: underline;
+}
+
+.user-navigation > a:hover,
+.user-navigation > a:focus,
+.user-navigation-list a:hover,
+.user-navigation-list a:focus {
+  color: #ee3643;
+  outline: none;
+}
+
 .user-navigation-list,
 .main-navigation-list {
   list-style: none;
 }
 
-.user-navigation-list a {
+.user-navigation-list a,
+.user-info a {
   font-size: 21px;
   line-height: 21px;
   color: #000000;
   background-color: #ffffff;
 }
 
-.user-navigation-list a:focus,
-.user-navigation-list a:active {
+.user-info a:focus {
+  /*outline: none;*/
+}
+
+.user-navigation a:active,
+.user-info a:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
@@ -141,6 +197,37 @@ address {
   color: #ffffff;
 }
 
-.user-navigation-list {
 
+/* Navigation */
+.main-navigation {
+  color: #ffffff;
+  background-color: #32425c;
+  box-shadow: inset 0 -5px 0 0 rgba(79, 87, 99, 1.0);
 }
+
+.main-navigation a:hover,
+.main-navigation a:focus {
+  background-color: #243147;
+  outline: none;
+}
+
+.main-navigation a:active {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #1d2739;
+}
+
+/* MAIN */
+/* Services */
+
+
+/* About */
+.about {}
+
+.marker-list {
+  list-style: none;
+}
+
+/* Contacts */
+
+
+/* FOOTER */
