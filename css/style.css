@@ -54,6 +54,7 @@ h2 {
   background-color: #ee3643;
   border: none;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .btn:hover,
@@ -64,6 +65,24 @@ h2 {
 
 .btn:active {
   background-color: #ba2732;
+}
+
+.btn-filter {
+  font-size: 13px;
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+  background-color: transparent;
+  border: 1px solid #bdc6ca;
+}
+
+.btn-filter:active {
+  background-color: transparent;
+  border: 1px solid #ee3643;
 }
 
 /* HEADER */
@@ -250,20 +269,6 @@ address {
   background-color: #f2f6f8;
 }
 
-/* Filter */
-.filter {
-  font-size: 15px;
-  line-height: 20px;
-}
-
-.filter-title {
-  margin: 0 0 20px;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 18px;
-  background-color: #f7f3ec;
-}
-
 /* Breadcrumbs */
 .breadcrumbs {
   font-size: 13px;
@@ -276,6 +281,38 @@ address {
 
 .breadcrumbs a {
   color: #000000;
+}
+
+/* Filters */
+.filters {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.filter-title {
+  margin: 0 0 20px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  background-color: #f7f3ec;
+}
+
+.filters fieldset {
+  border: none;
+}
+
+.filters legend {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.filters ul {
+  list-style: none;
+}
+
+.filter-input:disabled + label {
+  color: rgba(0, 0, 0, 0.4);
 }
 
 /* FOOTER */
