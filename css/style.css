@@ -33,9 +33,14 @@ h2 {
   text-transform: uppercase;
 }
 
+p {
+  margin: 0;
+}
+
 .services p,
 .about p,
 .contacts p {
+  margin: 0 0 25px;
   font-family: "PT Sans",  Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
@@ -51,8 +56,19 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   background-color: #ee3643;
+  border: none;
+  border-radius: 3px;
 }
 
+.btn:hover,
+.btn:focus {
+  background-color: #ca2c37;
+  outline: none;
+}
+
+.btn:active {
+  background-color: #ba2732;
+}
 
 /* HEADER */
 .main-header {
@@ -231,3 +247,67 @@ address {
 
 
 /* FOOTER */
+.index-rows {
+  font-size: 18px;
+  background-color: #32425c;
+}
+
+.main-footer,
+.main-footer a {
+  color: #f1f5f7;
+}
+
+.main-footer a:hover,
+.main-footer a:focus {
+  text-decoration: underline;
+  outline: none;
+}
+
+.main-footer a:active {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.main-footer ul {
+  margin: 0;
+  list-style: none;
+}
+
+.footer-navigation-section a {
+  color: #ffd180;
+}
+
+.footer-bottom-section {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #293449;
+}
+
+.footer-bottom-section a {
+  color: #ffffff;
+}
+
+.footer-social a:hover,
+.footer-social a:focus,
+.footer-social a:active {
+  color: #ee3643;
+  opacity: 1;
+}
+
+.footer-feedback a,
+.footer-develop a {
+  color: #ffd180;
+  opacity: 1;
+}
+
+.footer-feedback a:active,
+.footer-develop a:active {
+  color: #ee3643;
+  opacity: 1;
+}
+
+/* Modals */
+.modal {
+  display: none;
+}
