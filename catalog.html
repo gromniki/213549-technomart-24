@@ -4,12 +4,13 @@
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт. Каталог</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&amp;subset=cyrillic"
+        rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
 
+<body class="inner-page">
 <header class="main-header">
   <!-- Верхняя полоса с лого -->
   <div class="header-top">
@@ -75,7 +76,7 @@
   </section>
 
   <section class="filters">
-    <h2 class="visually-hidden">Фильтр товаров</h2>
+    <h2 class="filter-title">Фильтр:</h2>
     <form class="filter" method="get" action="https://echo.htmlacademy.ru">
       <fieldset class="brends">
         <legend>Производители:</legend>
@@ -171,6 +172,12 @@
 
         <p class="price">12500 Р.</p>
       </li>
+    </ul>
+    <ul class="pagination-list">
+      <li class="pagination-item  pagination-item-current">1</li>
+      <li class="pagination-item"><a href="#">2</a></li>
+      <li class="pagination-item"><a href="#">3</a></li>
+      <li class="pagination-item"><a href="#">Следующая</a></li>
     </ul>
   </section>
 </main>

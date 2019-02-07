@@ -246,6 +246,50 @@ address {
 /* Contacts */
 
 
+/* INNER */
+.inner-page .container {
+  font-family: "PT Sans",  Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.page-title {
+  margin: 0 0 20px;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  background-color: #f2f6f8;
+}
+
+/* Filter */
+.filter {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.filter-title {
+  margin: 0 0 20px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  background-color: #f7f3ec;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.breadcrumbs ul {
+  list-style: none;
+}
+
+.breadcrumbs a {
+  color: #000000;
+}
+
+
 /* FOOTER */
 .index-rows {
   font-size: 18px;
