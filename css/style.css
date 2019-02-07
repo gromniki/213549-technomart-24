@@ -33,15 +33,11 @@ h2 {
   text-transform: uppercase;
 }
 
-p {
-  margin: 0;
-}
-
 .services p,
 .about p,
 .contacts p {
   margin: 0 0 25px;
-  font-family: "PT Sans",  Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 24px;
@@ -200,10 +196,6 @@ address {
   background-color: #ffffff;
 }
 
-.user-info a:focus {
-  /*outline: none;*/
-}
-
 .user-navigation a:active,
 .user-info a:active {
   color: rgba(0, 0, 0, 0.3);
@@ -212,7 +204,6 @@ address {
 .main-navigation-list a {
   color: #ffffff;
 }
-
 
 /* Navigation */
 .main-navigation {
@@ -235,9 +226,8 @@ address {
 /* MAIN */
 /* Services */
 
-
 /* About */
-.about {}
+
 
 .marker-list {
   list-style: none;
@@ -245,10 +235,9 @@ address {
 
 /* Contacts */
 
-
 /* INNER */
 .inner-page .container {
-  font-family: "PT Sans",  Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   text-transform: uppercase;
 }
 
@@ -288,7 +277,6 @@ address {
 .breadcrumbs a {
   color: #000000;
 }
-
 
 /* FOOTER */
 .index-rows {
