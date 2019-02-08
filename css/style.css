@@ -85,6 +85,42 @@ h2 {
   border: 1px solid #ee3643;
 }
 
+.btn-buy,
+.btn-bookmark {
+  width: 135px;
+  font-family: "Cuprum", Arial, sans-serif;
+}
+
+.btn-buy {
+  box-shadow: inset 0 -3px 0 0 #367315;
+  background-color: #63a63e;
+}
+
+.btn-buy:hover,
+.btn-buy:focus {
+  background-color: #5fbb2d;
+}
+
+.btn-buy:active {
+  background-color: #518534;
+}
+
+.btn-bookmark {
+  color: #32425c;
+  background-color: #ffffff;
+  border: 3px solid #63a63e;
+}
+
+.btn-bookmark:hover,
+.btn-bookmark:focus {
+  background-color: #ffffff;
+  border: 3px solid #32425c;
+}
+
+.btn-bookmark:active {
+  opacity: 0.3;
+}
+
 /* HEADER */
 .main-header {
   color: #000000;
@@ -243,10 +279,14 @@ address {
 }
 
 /* MAIN */
+/* Popular */
+.popular {
+  font-family: "PT Sans", Arial, sans-serif;
+}
+
 /* Services */
 
 /* About */
-
 
 .marker-list {
   list-style: none;
@@ -313,6 +353,48 @@ address {
 
 .filter-input:disabled + label {
   color: rgba(0, 0, 0, 0.4);
+}
+
+/* Product List */
+.product-list {
+  list-style: none;
+}
+
+.product-item {
+  line-height: 18px;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+
+  /* temp */
+  margin-bottom: 20px;
+}
+
+.product-item:hover,
+.product-item:focus {
+  box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
+
+.product-title {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.product-title span {
+  text-transform: none;
+}
+
+.old-price {
+  font-weight: 700;
+  color: #999999;
+  text-decoration: line-through;
+}
+
+.price {
+  width: 122px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #ee3643;
+  border-radius: 3px;
 }
 
 /* FOOTER */
