@@ -451,6 +451,34 @@ address {
   border-radius: 3px;
 }
 
+/* Pagination */
+.pagination-list {
+  font-size: 13px;
+  line-height: 18px;
+  list-style: none;
+}
+
+.pagination-item a,
+.pagination-item-current {
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+}
+
+.pagination-item-current {
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus {
+  border: 1px solid #bdc6ca;
+}
+
+.pagination-item a:active {
+  color: #000000;
+  border: 1px solid #ee3643;
+}
+
 /* FOOTER */
 .index-rows {
   font-size: 18px;
