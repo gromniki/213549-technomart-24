@@ -82,8 +82,11 @@ img {
 }
 
 .header-h2 {
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 30px;
+  font-weight: normal;
   line-height: 30px;
+  color: #32425c;
   text-transform: uppercase;
 }
 
@@ -333,6 +336,74 @@ address {
 }
 
 /* MAIN */
+.category {}
+
+.category-list,
+.slider-slides,
+.features-list {
+  list-style: none;
+}
+
+.category-item,
+.features-item {
+  width: 300px;
+  height: 123px;
+  color: #ffffff;
+}
+
+.category-item h3,
+.features-item h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.category-item a,
+.features-item a {
+  display: block;
+  width: 135px;
+  height: 38px;
+  font-size: 14px;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.category-item a:hover,
+.category-item a:focus,
+.features-item a:hover,
+.features-item a:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.category-item a:active,
+.features-item a:active {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.category-item-materials {
+  background-color: #ffbf47;
+}
+
+.category-item-tools {
+  background-color: #3bbce3;
+}
+
+.category-item-technics {
+  background-color: #dc91d8;
+}
+
+.features-item-discount {
+  background-color: #8ed78f;
+}
+
+.features-item-delivery {
+  background-color: #ffc047;
+}
+
 /* Popular */
 .popular {
   font-family: "PT Sans", Arial, sans-serif;
@@ -341,6 +412,10 @@ address {
 /* Services */
 
 /* About */
+.about h2,
+.contacts h2 {
+  color: #000000;
+}
 
 .marker-list {
   list-style: none;
@@ -460,6 +535,7 @@ address {
 
 .pagination-item a,
 .pagination-item-current {
+  color: #000000;
   border: 1px solid #e5e5e5;
   border-radius: 3px;
 }
@@ -472,11 +548,23 @@ address {
 .pagination-item a:hover,
 .pagination-item a:focus {
   border: 1px solid #bdc6ca;
+  outline: none;
 }
 
 .pagination-item a:active {
   color: #000000;
   border: 1px solid #ee3643;
+}
+
+/* Description */
+.description {
+  background-color: #f4f7f9;
+}
+
+.description p {
+  font-size: 13px;
+  line-height: 24px;
+  text-transform: none;
 }
 
 /* FOOTER */
