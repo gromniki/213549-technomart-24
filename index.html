@@ -12,56 +12,60 @@
 <header class="main-header">
   <!-- Верхняя полоса с лого -->
   <div class="header-top">
-    <a class="main-header-logo">
-      <img src="img/logo-technomart.svg" width="110" height="18" alt="Логотип Техномарт">
-    </a>
+    <div class="container  wrapper">
+      <a class="main-header-logo">
+        <img src="img/logo-technomart.svg" width="110" height="18" alt="Логотип Техномарт">
+      </a>
 
-    <form class="main-header-search" action="https://echo.htmlacademy.ru" method="get">
-      <input type="search" name="search" placeholder="Поиск:">
-      <button class="hidden" type="submit">Искать</button>
-    </form>
+      <form class="main-header-search" action="https://echo.htmlacademy.ru" method="get">
+        <input type="search" name="search" placeholder="Поиск:">
+        <button class="hidden" type="submit">Искать</button>
+      </form>
 
-    <a class="main-header-link  main-header-bookmarks" href="#">Закладки: 0</a>
-    <a class="main-header-link  main-header-cart" href="#">Корзина: 0</a>
-    <a class="main-header-order" href="#">Оформить заказ</a>
+      <a class="main-header-link  main-header-bookmarks" href="#">Закладки: 0</a>
+      <a class="main-header-link  main-header-cart" href="#">Корзина: 0</a>
+      <a class="main-header-order" href="#">Оформить заказ</a>
+    </div>
   </div>
   <!-- /Верхняя полоса с лого -->
 
-  <!-- Средний блок с заголовком и адресом -->
-  <div class="header-middle">
-    <h1 class="header-h1">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+  <div class="container">
+    <!-- Средний блок с заголовком и адресом -->
+    <div class="header-middle">
+      <h1 class="header-h1">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
 
-    <div class="main-header-contacts">
-      <a href="tel:88125550555">+7 (812) 555-05-55</a>
-      <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+      <div class="main-header-contacts">
+        <a href="tel:88125550555">+7 (812) 555-05-55</a>
+        <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+      </div>
+
+      <div class="user-navigation">
+        <ul class="user-navigation-list">
+          <li>
+            <a class="login-link" href="login.html">Войти</a>
+          </li>
+          <li>
+            <a class="registration-link" href="reg.html">Регистрация</a>
+          </li>
+        </ul>
+      </div>
     </div>
+    <!-- /Средний блок с заголовком и адресом -->
 
-    <div class="user-navigation">
-      <ul class="user-navigation-list">
-        <li>
-          <a class="login-link" href="login.html">Войти</a>
-        </li>
-        <li>
-          <a class="registration-link" href="reg.html">Регистрация</a>
-        </li>
+    <!-- Навигация сайта -->
+    <nav class="main-navigation">
+      <ul class="main-navigation-list">
+        <li><a href="">Главная</a></li>
+        <li><a href="about.html">Компания</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="special.html">Спецпредложения</a></li>
+        <li><a href="delivery.html">Доставка</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
       </ul>
-    </div>
+    </nav>
+    <!-- /Навигация сайта -->
   </div>
-  <!-- /Средний блок с заголовком и адресом -->
-
-  <!-- Навигация сайта -->
-  <nav class="main-navigation">
-    <ul class="main-navigation-list">
-      <li><a href="">Главная</a></li>
-      <li><a href="about.html">Компания</a></li>
-      <li><a href="catalog.html">Каталог</a></li>
-      <li><a href="news.html">Новости</a></li>
-      <li><a href="special.html">Спецпредложения</a></li>
-      <li><a href="delivery.html">Доставка</a></li>
-      <li><a href="contacts.html">Контакты</a></li>
-    </ul>
-  </nav>
-  <!-- /Навигация сайта -->
 </header>
 
 <main class="container">

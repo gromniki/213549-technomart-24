@@ -81,6 +81,12 @@ img {
   max-width: 100%;
 }
 
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 .header-h2 {
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 30px;
@@ -185,9 +191,16 @@ img {
 }
 
 .header-top {
+  height: 42px;
   line-height: 18px;
   color: #ffffff;
   background-color: #293449;
+}
+
+.header-top .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-top a {
@@ -196,8 +209,17 @@ img {
 
 .main-header-logo,
 .main-footer-logo {
+  text-align: center;
   background-color: #ee3643;
-  box-shadow: inset 0 -5px 0 0 rgba(0, 0, 0, 0.24);
+  box-shadow: 0 5px 0 0 #b6242f;
+  cursor: pointer;
+}
+
+.main-header-logo {
+  width: 220px;
+  height: 42px;
+  line-height: 47px;
+  margin-right: 20px;
 }
 
 .main-header-logo:hover,
@@ -206,6 +228,10 @@ img {
 .main-footer-logo:focus {
   background-color: #ca2c37;
   outline: none;
+}
+
+.main-header-search {
+  flex-grow: 1;
 }
 
 .main-header-search input {
@@ -250,6 +276,13 @@ img {
 
 .main-header-order:active {
   background-color: #518534;
+}
+
+.header-middle,
+.main-navigation-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-middle h1,
@@ -424,7 +457,7 @@ address {
 /* Contacts */
 
 /* INNER */
-.inner-page .container {
+.inner-page main {
   font-family: "PT Sans", Arial, sans-serif;
   text-transform: uppercase;
 }

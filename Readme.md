@@ -85,7 +85,14 @@
 ### Демки
 - https://up.htmlacademy.ru/htmlcss/24/demos/1933 – Базовая стилизация главной Барбершопа 
 - https://up.htmlacademy.ru/htmlcss/24/demos/1935 – Базовая стилизация каталога Барбершопа 
-- https://up.htmlacademy.ru/htmlcss/24/demos/1931 – Базовая стилизация карточки товара Барбершопа 
+- https://up.htmlacademy.ru/htmlcss/24/demos/1931 – Базовая стилизация карточки товара Барбершопа
+
+## Лекция 6. Сетки
+
+### Демки
+- https://up.htmlacademy.ru/htmlcss/24/demos/1941 – Сетка главной Барбершопа 
+- https://up.htmlacademy.ru/htmlcss/24/demos/1937 – Сетка каталога Барбершопа 
+- https://up.htmlacademy.ru/htmlcss/24/demos/1939 – Сетка карточки товара Барбершопа
 
 ---
 
