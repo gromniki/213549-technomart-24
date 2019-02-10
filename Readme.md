@@ -88,6 +88,13 @@
 - https://up.htmlacademy.ru/htmlcss/24/demos/1931 – Базовая стилизация карточки товара Барбершопа
 
 ## Лекция 6. Сетки
+### Флексбоксы
+- https://frontender.info/a-guide-to-flexbox/ – Полное руководство по Flexbox
+- https://pepelsbey.net/pres/flexbox-gotcha/ – Презентация
+- https://vimeo.com/67011034 – Видео от Вадима Макеева
+- http://yoksel.github.io/flex-cheatsheet/ – Flexbox cheat sheet
+- https://philipwalton.github.io/solved-by-flexbox/ – Solved by Flexbox
+
 
 ### Демки
 - https://up.htmlacademy.ru/htmlcss/24/demos/1941 – Сетка главной Барбершопа 
