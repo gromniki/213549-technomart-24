@@ -190,6 +190,10 @@ img {
   background-color: #f4f7f9;
 }
 
+.main-header .index-rows {
+  padding-bottom: 60px;
+}
+
 .header-top {
   height: 42px;
   line-height: 18px;
@@ -279,7 +283,7 @@ img {
 }
 
 .header-middle {
-  height: 160px;
+  padding: 30px 0;
 }
 
 .header-middle,
@@ -470,7 +474,19 @@ address {
 /* About */
 .about h2,
 .contacts h2 {
+  margin: 0 0 30px;
   color: #000000;
+}
+
+.about {
+  max-width: 540px;
+  padding: 80px 0 0;
+}
+
+/* temp */
+.about,
+.contacts {
+  border: 1px solid red;
 }
 
 .marker-list {
@@ -478,6 +494,10 @@ address {
 }
 
 /* Contacts */
+.contacts {
+  max-width: 300px;
+  padding: 80px 0 0;
+}
 
 /* INNER */
 .inner-page main {
@@ -624,9 +644,13 @@ address {
 }
 
 /* FOOTER */
-.index-rows {
+.main-footer .index-rows {
   font-size: 18px;
   background-color: #32425c;
+}
+
+.main-footer {
+  margin-top: 75px;
 }
 
 .main-footer,
@@ -663,6 +687,10 @@ address {
 
 .footer-bottom-section a {
   color: #ffffff;
+}
+
+.footer-copyright p {
+  margin: 0;
 }
 
 .footer-social a:hover,
