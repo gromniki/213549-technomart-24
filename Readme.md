@@ -95,6 +95,10 @@
 - http://yoksel.github.io/flex-cheatsheet/ – Flexbox cheat sheet
 - https://philipwalton.github.io/solved-by-flexbox/ – Solved by Flexbox
 
+### Игры по флексбоксам
+- http://www.flexboxdefense.com/
+- 
+
 
 ### Демки
 - https://up.htmlacademy.ru/htmlcss/24/demos/1941 – Сетка главной Барбершопа 
