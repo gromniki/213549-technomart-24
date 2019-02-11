@@ -399,7 +399,20 @@ address {
 .category-list,
 .slider-slides,
 .features-list {
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+
+.category-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .category-item,
@@ -465,6 +478,20 @@ address {
 /* Popular */
 .popular {
   font-family: "PT Sans", Arial, sans-serif;
+}
+
+/* Brands */
+.brands-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.brands-item {
+
 }
 
 /* Services */
