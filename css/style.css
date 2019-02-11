@@ -82,7 +82,7 @@ img {
 }
 
 .container {
-  max-width: 940px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -193,7 +193,7 @@ img {
 }
 
 .header-top {
-  height: 42px;
+  min-height: 42px;
   line-height: 18px;
   color: #ffffff;
   background-color: #293449;
@@ -220,8 +220,8 @@ img {
 .main-header-logo {
   width: 220px;
   height: 42px;
-  line-height: 47px;
   margin-right: 20px;
+  line-height: 52px;
 }
 
 .main-header-logo:hover,
@@ -281,7 +281,8 @@ img {
 }
 
 .header-middle {
-  padding: 30px 0;
+  min-height: 157px;
+  /*padding: 38px 0 30px;*/
 }
 
 .header-middle,
@@ -359,14 +360,14 @@ address {
 
 /* Navigation */
 .main-navigation {
-  height: 60px;
+  min-height: 60px;
   color: #ffffff;
   background-color: #32425c;
   box-shadow: inset 0 -5px 0 0 #293449;
 }
 
 .main-navigation-list {
-  height: 55px;
+  min-height: 55px;
   padding: 0;
 }
 
@@ -394,7 +395,6 @@ address {
   display: flex;
   justify-content: space-between;
 }
-.category {}
 
 .category-list,
 .slider-slides,
@@ -405,7 +405,7 @@ address {
 .category-item,
 .features-item {
   width: 300px;
-  height: 123px;
+  min-height: 123px;
   color: #ffffff;
 }
 
@@ -419,7 +419,7 @@ address {
 .features-item a {
   display: block;
   width: 135px;
-  height: 38px;
+  min-height: 38px;
   font-size: 14px;
   line-height: 38px;
   text-align: center;
@@ -477,7 +477,7 @@ address {
 }
 
 .about {
-  max-width: 540px;
+  width: 540px;
   padding: 80px 0 0;
 }
 
@@ -493,7 +493,7 @@ address {
 
 /* Contacts */
 .contacts {
-  max-width: 300px;
+  width: 300px;
   padding: 80px 0 0;
 }
 
@@ -574,24 +574,25 @@ address {
 
 /* Product List (catalog) */
 .catalog {
-  flex-grow: 1;
+  width: 700px;
 }
 
 .product-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 -10px;
+  margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .product-item {
-  width: 218px;
-  margin: 0 10px 20px;
+  width: 220px;
+  margin-bottom: 20px;
   line-height: 18px;
   background-color: #ffffff;
   border: 1px solid #e5e5e5;
+  transition-duration: 0.2s;
 }
 
 .product-item:hover,
