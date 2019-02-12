@@ -125,6 +125,8 @@ input[type="radio"].visually-hidden {
 
 /* Buttons */
 .btn {
+  display: inline-block;
+  padding: 11px 40px;
   font-size: 14px;
   line-height: 18px;
   color: #ffffff;
@@ -273,6 +275,11 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
 }
 
+.main-header-link {
+  margin-right: 10px;
+  padding: 12px 20px 12px 60px;
+}
+
 .main-header-link:active {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -282,6 +289,7 @@ input[type="radio"].visually-hidden {
 }
 
 .main-header-order {
+  padding: 12px 20px;
   color: #ffffff;
   background-color: #63a63e;
 }
@@ -618,6 +626,7 @@ address {
 /* Product List (catalog) */
 .catalog {
   width: 700px;
+  margin-bottom: 60px;
 }
 
 .product-list {
@@ -718,6 +727,7 @@ address {
 
 /* Description */
 .description {
+  padding: 40px 0 60px;
   background-color: #f4f7f9;
 }
 
@@ -728,6 +738,10 @@ address {
 }
 
 /* FOOTER */
+.inner-page .main-footer {
+  margin-top: 0;
+}
+
 .main-footer .index-rows {
   font-size: 18px;
 }
