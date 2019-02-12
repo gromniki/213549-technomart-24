@@ -101,9 +101,24 @@
 
 
 ### Демки
-- https://up.htmlacademy.ru/htmlcss/24/demos/1941 – Сетка главной Барбершопа 
-- https://up.htmlacademy.ru/htmlcss/24/demos/1937 – Сетка каталога Барбершопа 
+- https://up.htmlacademy.ru/htmlcss/24/demos/1941 – Сетка главной Барбершопа
+- https://up.htmlacademy.ru/htmlcss/24/demos/1937 – Сетка каталога Барбершопа
 - https://up.htmlacademy.ru/htmlcss/24/demos/1939 – Сетка карточки товара Барбершопа
+
+## Лекция 7. Декоративные элементы
+- https://isqua.ru/blog/2016/05/30/kak-popast-v-makiet-i-nie-soiti-s-uma/ 
+
+### Демки
+- https://up.htmlacademy.ru/htmlcss/24/demos/1943 – Слайдер в Нёрдс
+- https://up.htmlacademy.ru/htmlcss/24/demos/2061 – Сложный фильтр в Седоне
+- https://up.htmlacademy.ru/htmlcss/24/demos/2063 – Сетка товаров в Техномарте
+- https://up.htmlacademy.ru/htmlcss/24/demos/2065 – Блочно-строчные элементы
+- https://up.htmlacademy.ru/htmlcss/24/demos/1945 – Сложный фильтр в Нёрдс
+- https://up.htmlacademy.ru/htmlcss/24/demos/1947 – Слайдер в Глейси
+- https://up.htmlacademy.ru/htmlcss/24/demos/1955 – Флексбоксы: карточки
+- https://up.htmlacademy.ru/htmlcss/24/demos/1953 – Завершение стилизации главной Барбершопа
+- https://up.htmlacademy.ru/htmlcss/24/demos/1949 – Завершение стилизации каталога Барбершопа
+- https://up.htmlacademy.ru/htmlcss/24/demos/1951 – Завершение стилизации карточки Барбершопа
 
 ---
 
