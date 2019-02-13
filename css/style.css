@@ -828,21 +828,38 @@ address {
   margin: 0;
 }
 
-.footer-social a:hover,
-.footer-social a:focus,
-.footer-social a:active {
-  color: #ee3643;
-  opacity: 1;
-}
-
-.footer-social-list {
-  padding: 0;
-}
-
 .footer-social,
 .footer-feedback,
 .footer-develop {
   width: 140px;
+}
+
+.footer-social {
+
+}
+
+.footer-social-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43px;
+  height: 43px;
+  background-color: #212a3a;
+  border-radius: 50%;
+}
+
+.footer-social a:hover,
+.footer-social a:focus,
+.footer-social a:active {
+  background-color: #ee3643;
+  opacity: 1;
 }
 
 .footer-feedback a,
