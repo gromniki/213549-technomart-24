@@ -371,15 +371,14 @@ input[type="radio"].visually-hidden {
 }
 
 .header-middle {
-  min-height: 157px;
-  /*padding: 38px 0 30px;*/
+  /*min-height: 157px;*/
+  padding: 45px 0 42px;
 }
 
 .header-middle,
 .main-navigation-list {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .header-middle > * {
@@ -387,7 +386,8 @@ input[type="radio"].visually-hidden {
 }
 
 .header-middle .header-h1 {
-  padding: 0 50px;
+  margin: 0;
+  padding: 5px 60px 0 50px;
   font-size: 16px;
   font-weight: normal;
   font-style: italic;
@@ -400,11 +400,23 @@ address {
 }
 
 .main-header-contacts a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 50px 10px 70px;
   font-size: 21px;
   line-height: 21px;
-  letter-spacing: 0.4px;
   color: #e9292a;
   border: 3px solid #ffffff;
+}
+
+.main-header-contacts a::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 19px;
+  height: 19px;
+  background: url("../img/icon-phone.svg") no-repeat 0 0;
 }
 
 .main-header-contacts address {
@@ -435,8 +447,16 @@ address {
   list-style: none;
 }
 
+.user-navigation-list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 18px;
+}
+
 .user-navigation-list a,
 .user-info a {
+  display: block;
+  padding: 12px 25px;
   font-size: 21px;
   line-height: 21px;
   color: #000000;
@@ -448,6 +468,21 @@ address {
   color: rgba(0, 0, 0, 0.3);
 }
 
+.user-navigation .login-link {
+  position: relative;
+  padding-left: 50px;
+}
+
+.login-link::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 14px;
+  width: 20px;
+  height: 17px;
+  background: url("../img/icon-login.svg") no-repeat 0 0;
+}
+
 /* Navigation */
 .main-navigation {
   min-height: 60px;
@@ -457,6 +492,7 @@ address {
 }
 
 .main-navigation-list {
+  align-items: center;
   min-height: 55px;
   padding: 0;
 }
