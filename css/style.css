@@ -387,7 +387,7 @@ input[type="radio"].visually-hidden {
 
 .header-middle .header-h1 {
   margin: 0;
-  padding: 5px 60px 0 50px;
+  padding: 5px 40px 0 50px;
   font-size: 16px;
   font-weight: normal;
   font-style: italic;
@@ -420,9 +420,9 @@ address {
 }
 
 .main-header-contacts address {
+  padding: 3px 0 0 10px;
   font-size: 14px;
   line-height: 24px;
-  text-align: center;
   color: #32425c;
 }
 
@@ -449,8 +449,8 @@ address {
 
 .user-navigation-list {
   display: flex;
-  justify-content: space-between;
-  padding-left: 18px;
+  justify-content: flex-end;
+  padding: 0;
 }
 
 .user-navigation-list a,
@@ -470,17 +470,35 @@ address {
 
 .user-navigation .login-link {
   position: relative;
+  margin-right: 10px;
   padding-left: 50px;
 }
 
-.login-link::before {
+.login-link:hover path,
+.login-link:focus path {
+  fill: #2f405b;
+}
+
+.login-link:active path {
+  fill: #c5c5c5;
+}
+
+/*.login-link::before {
   content: "";
   position: absolute;
-  top: 15px;
+  top: 14px;
   left: 14px;
   width: 20px;
   height: 17px;
   background: url("../img/icon-login.svg") no-repeat 0 0;
+}*/
+
+.login-link svg {
+  position: absolute;
+  top: 14px;
+  left: 17px;
+  width: 20px;
+  height: 17px;
 }
 
 /* Navigation */
