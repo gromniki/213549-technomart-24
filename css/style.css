@@ -301,7 +301,7 @@ input[type="radio"].visually-hidden {
 
 .main-header-link {
   position: relative;
-  padding: 12px 30px 12px 60px;
+  padding: 12px 30px 12px 50px;
 
   /* temp */
   box-shadow: inset 0 0 0 2px rgba(208, 255, 0, 0.8);
@@ -315,7 +315,7 @@ input[type="radio"].visually-hidden {
   content: "";
   position: absolute;
   top: 12px;
-  left: 26px;
+  left: 18px;
   width: 15px;
   height: 15px;
   opacity: 0.3;
@@ -332,17 +332,22 @@ input[type="radio"].visually-hidden {
 }
 
 .main-header-bookmarks {
-  padding-right: 20px;
+  /*padding-right: 28px;*/
 }
 
 .main-header-bookmarks::before {
-  left: 32px;
+  left: 22px;
   width: 14px;
   height: 16px;
   background: url("../img/icon-bookmark.svg") no-repeat 0 0;
 }
 
+.main-header-cart {
+  padding-right: 28px;
+}
+
 .main-header-cart::before {
+  /*left: 19px;*/
   background: url("../img/icon-cart.svg") no-repeat 0 0;
 }
 
@@ -355,9 +360,12 @@ input[type="radio"].visually-hidden {
 }
 
 .main-header-order {
-  padding: 12px 20px;
+  padding: 12px 23px 12px 21px;
   color: #ffffff;
   background-color: #63a63e;
+
+  /* Было */
+  /* padding: 12px 20px; */
 }
 
 .main-header-order:hover,
@@ -447,9 +455,11 @@ address {
   list-style: none;
 }
 
-.user-navigation-list {
+.user-navigation-list,
+.user-info {
   display: flex;
   justify-content: flex-end;
+  margin: 0;
   padding: 0;
 }
 
@@ -499,6 +509,46 @@ address {
   left: 17px;
   width: 20px;
   height: 17px;
+}
+
+.user-info .user-profile {
+  position: relative;
+  padding: 12px 20px 12px 50px;
+}
+
+.user-profile::before,
+.user-exit::before {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  width: 20px;
+  height: 17px;
+  background: url("../img/icon-user.svg") no-repeat 0 0;
+  opacity: 0.3;
+  transition-duration: 0.2s;
+}
+
+.user-exit {
+  position: relative;
+}
+
+.user-exit::before {
+  top: 15px;
+  left: 18px;
+  background: url("../img/icon-logout.svg") no-repeat 0 0;
+}
+
+.user-profile:hover::before,
+.user-exit:hover::before,
+.user-profile:focus::before,
+.user-exit:focus::before {
+  opacity: 1;
+}
+
+.user-profile:active::before,
+.user-exit:active::before {
+  opacity: 0.3;
 }
 
 /* Navigation */
