@@ -434,15 +434,8 @@ address {
   color: #32425c;
 }
 
-.user-navigation > a {
-  font-size: 16px;
-  line-height: 18px;
-  color: #32425c;
-  text-decoration: underline;
-}
-
-.user-navigation > a:hover,
-.user-navigation > a:focus,
+.user-menu a:hover,
+.user-menu a:focus,
 .user-navigation-list a:hover,
 .user-navigation-list a:focus {
   color: #ee3643;
@@ -461,6 +454,10 @@ address {
   justify-content: flex-end;
   margin: 0;
   padding: 0;
+}
+
+.user-info {
+  margin-bottom: 5px;
 }
 
 .user-navigation-list a,
@@ -549,6 +546,31 @@ address {
 .user-profile:active::before,
 .user-exit:active::before {
   opacity: 0.3;
+}
+
+.user-menu {
+  position: relative;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.user-menu::before {
+  content: "•";
+  position: absolute;
+  top: 2px;
+  left: 36%;
+}
+
+.user-menu a {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425c;
+  text-decoration: underline;
+}
+
+.user-menu a:first-of-type {
+  margin-right: 28px;
 }
 
 /* Navigation */
