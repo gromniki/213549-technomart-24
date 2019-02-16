@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@font-face {
+/*@font-face {
   font-family: 'PT Sans';
   src: local('PT Sans'), local('PTSans'),
   url('../fonts/ptsans.woff2') format('woff2'),
@@ -52,7 +52,7 @@
   url('../fonts/cuprumbolditalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
-}
+}*/
 
 html {
   box-sizing: border-box;
@@ -716,6 +716,44 @@ address {
 
 .features-item-delivery {
   background: #ffc047 url("../img/icon-5.svg") no-repeat 86% 55%;
+}
+
+/* slider */
+.slider {
+  color: #ffffff;
+}
+
+.slider-item {
+  position: relative;
+}
+
+.slider-item h3,
+.slider-item p,
+.slider-item .btn {
+  position: absolute;
+  margin: 0;
+}
+
+.slider-item h3 {
+  top: 22px;
+  left: 24px;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.slider-item p {
+  top: 60px;
+  left: 24px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.slider-item .btn {
+  bottom: 29px;
+  left: 24px;
+  padding: 10px 50px;
 }
 
 /* Popular */

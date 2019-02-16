@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
 
+  <!-- Временно для корректного отображения локально -->
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -112,17 +115,19 @@
               <img src="img/sliders/main-slider-01.jpg" width="620" height="266" alt="Слайд 1. Рабочий работает дрелью">
               <h3>Дрели</h3>
               <p>Соседям на радость!</p>
-              <a href="catalog.html">Открыть каталог</a>
+              <a class="btn" href="catalog.html">Открыть каталог</a>
             </li>
-            <li class="slider-item">
+            <li class="slider-item" style="display: none">
               <img src="img/sliders/main-slider-02.jpg" width="620" height="266"
                    alt="Слайд 2. Рабочий работает перфоратором">
               <h3>Перфораторы</h3>
               <p>Настоящие мужские игрушки</p>
-              <a href="catalog.html">Открыть каталог</a>
+              <a class="btn" href="catalog.html">Открыть каталог</a>
             </li>
           </ul>
         </div>
+        <button class="slide-prev  js-slide-prev" type="button">Назад</button>
+        <button class="slide-next  js-slide-next" type="button">Вперёд</button>
       </div>
 
       <ul class="features-list">
