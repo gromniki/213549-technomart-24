@@ -818,6 +818,10 @@ address {
 }
 
 /* Brands */
+.brands {
+  margin-bottom: 68px;
+}
+
 .brands-list {
   display: flex;
   justify-content: space-between;
@@ -855,8 +859,50 @@ address {
 }
 
 /* Services */
+.services {
+  margin-bottom: 80px;
+  padding: 40px 0 50px;
+  background-color: #f4f7f9;
+}
+
+.services-text {
+  max-width: 400px;
+  margin-bottom: 68px;
+}
+
+.services .slider {
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+}
+
+.services h3 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 36px;
+  color: #32425c;
+  text-transform: uppercase;
+}
+
+.services label {
+  display: block;
+  width: 240px;
+  padding: 15px 20px;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #ffffff;
+  background-color: #32425c;
+  cursor: pointer;
+}
 
 /* About */
+.about,
+.contacts {
+  padding: 0;
+}
+
 .about h2,
 .contacts h2 {
   margin: 0 0 30px;
@@ -865,13 +911,6 @@ address {
 
 .about {
   width: 540px;
-  padding: 80px 0 0;
-}
-
-/* temp */
-.about,
-.contacts {
-  border: 1px solid red;
 }
 
 .marker-list {
@@ -881,7 +920,6 @@ address {
 /* Contacts */
 .contacts {
   width: 300px;
-  padding: 80px 0 0;
 }
 
 /* INNER */
