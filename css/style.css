@@ -813,6 +813,7 @@ address {
 
 .popular-title .btn,
 .brands-title .btn {
+  width: 253px;
   padding: 10px 54px;
 }
 
@@ -827,7 +828,30 @@ address {
 }
 
 .brands-item {
+  width: 220px;
+  height: 145px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  transition-duration: 0.2s;
+}
 
+.brands-item:hover,
+.brands-item:focus {
+  box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
+  outline: none;
+}
+
+.brands-item:active {
+  box-shadow: 0 4px 10px 0 rgba(41, 52, 73, 0.5);
+  opacity: 0.3;
+}
+
+.brands-item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 /* Services */
@@ -1004,7 +1028,7 @@ address {
   display: none;
   width: 218px;
   padding: 40px 0;
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   z-index: 10;
 }
 
@@ -1024,8 +1048,7 @@ address {
 }
 
 .old-price {
-  min-height: 20px;
-  margin: 0 0 10px;
+  margin: 0 0 12px;
   font-weight: bold;
   color: #999999;
   text-decoration: line-through;
