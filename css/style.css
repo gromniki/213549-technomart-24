@@ -894,7 +894,24 @@ address {
   line-height: 30px;
   color: #ffffff;
   background-color: #32425c;
+  box-shadow:
+    inset 0 1px 0 0 rgba(37, 53, 79, 1),
+    inset 0 2px 0 0 rgba(62, 79, 105, 1);
+  /*box-shadow: inset 1px 0 0 0 rgba(255, 255, 255, 0.9);*/
   cursor: pointer;
+}
+
+.services .slider-controls {
+  margin-right: 80px;
+}
+
+.services-slider-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.services .slide-description {
+  max-width: 300px;
 }
 
 /* About */
@@ -905,7 +922,7 @@ address {
 
 .about h2,
 .contacts h2 {
-  margin: 0 0 30px;
+  margin: 0 0 25px;
   color: #000000;
 }
 
@@ -913,13 +930,45 @@ address {
   width: 540px;
 }
 
+.about > p:last-of-type {
+  margin-bottom: 20px;
+}
+
 .marker-list {
+  margin: 0 0 35px;
+  padding: 0;
   list-style: none;
+}
+
+.marker-list li {
+  position: relative;
+  margin-bottom: 15px;
+  padding-left: 35px;
+}
+
+.marker-list li::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 25px;
+  height: 2px;
+  background-color: #ee3643;
+  transform: translate(0, -50%);
 }
 
 /* Contacts */
 .contacts {
   width: 300px;
+}
+
+.contacts p {
+  margin-bottom: 30px;
+}
+
+.contacts .btn {
+  width: 100%;
+  margin-top: 35px;
 }
 
 /* INNER */
@@ -1170,7 +1219,7 @@ address {
 }
 
 .main-footer {
-  margin-top: 75px;
+  margin-top: 85px;
   background-color: #32425c;
 }
 
@@ -1232,7 +1281,7 @@ address {
 }
 
 .footer-bottom-section {
-  padding: 30px 0 35px;
+  padding: 37px 0 35px;
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
@@ -1244,7 +1293,7 @@ address {
 }
 
 .footer-copyright {
-  width: 305px;
+  width: 325px;
 }
 
 .footer-copyright p {
