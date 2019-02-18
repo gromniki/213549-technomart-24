@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*@font-face {
+@font-face {
   font-family: 'PT Sans';
   src: local('PT Sans'), local('PTSans'),
   url('../fonts/ptsans.woff2') format('woff2'),
@@ -52,7 +52,7 @@
   url('../fonts/cuprumbolditalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
-}*/
+}
 
 html {
   box-sizing: border-box;
@@ -1257,7 +1257,11 @@ address {
 }
 
 .footer-middle-section {
-  padding: 30px 0 50px;
+  padding: 34px 0 48px;
+}
+
+.footer-address {
+  padding-left: 5px;
 }
 
 .footer-navigation-main,
@@ -1293,21 +1297,21 @@ address {
 }
 
 .footer-copyright {
-  width: 325px;
+  width: 380px;
+  margin-right: 10px;
 }
 
 .footer-copyright p {
   margin: 0;
 }
 
-.footer-social,
 .footer-feedback,
 .footer-develop {
   width: 140px;
 }
 
 .footer-social {
-
+  width: 130px;
 }
 
 .footer-social-list {
@@ -1315,6 +1319,10 @@ address {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0;
+}
+
+.footer-social-list li {
+
 }
 
 .social-links {
@@ -1344,6 +1352,15 @@ address {
 .footer-develop a:active {
   color: #ee3643;
   opacity: 1;
+}
+
+.footer-feedback {
+  margin-right: 20px;
+  margin-left: auto;
+}
+
+.footer-develop {
+  padding-left: 30px;
 }
 
 /* Modals */
