@@ -98,7 +98,7 @@ input[type="radio"].visually-hidden {
 }
 
 .container {
-  max-width: 960px;
+  width: 960px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -260,7 +260,7 @@ input[type="radio"].visually-hidden {
 .main-header-logo {
   width: 220px;
   height: 42px;
-  line-height: 52px;
+  padding: 13px 0;
 }
 
 .main-header-logo:hover,
@@ -280,8 +280,8 @@ input[type="radio"].visually-hidden {
   position: absolute;
   top: 12px;
   left: 12px;
-  width: 17px;
-  height: 17px;
+  width: 0;
+  height: 0;
   background: none;
   border: none;
   opacity: 0.3;
@@ -323,9 +323,11 @@ input[type="radio"].visually-hidden {
 
 .main-header-link {
   position: relative;
-  padding: 12px 30px 12px 50px;
+  min-width: 150px;
+  padding: 12px 0 12px 50px;
 
   /* temp */
+  /*padding: 12px 30px 12px 50px;*/
   box-shadow: inset 0 0 0 2px rgba(208, 255, 0, 0.8);
 }
 
@@ -354,7 +356,8 @@ input[type="radio"].visually-hidden {
 }
 
 .main-header-bookmarks {
-  /*padding-right: 28px;*/
+  /*min-width: 156px;
+  padding-right: 0;*/
 }
 
 .main-header-bookmarks::before {
@@ -365,7 +368,7 @@ input[type="radio"].visually-hidden {
 }
 
 .main-header-cart {
-  padding-right: 28px;
+  /*padding-right: 28px;*/
 }
 
 .main-header-cart::before {
@@ -690,8 +693,9 @@ address {
   display: block;
   width: 135px;
   min-height: 38px;
+  padding: 9px 0;
   font-size: 14px;
-  line-height: 38px;
+  line-height: 18px;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -1247,7 +1251,7 @@ address {
 .main-footer-logo {
   width: 220px;
   height: 62px;
-  line-height: 72px;
+  padding: 20px 0;
 }
 
 .footer-navigation,
