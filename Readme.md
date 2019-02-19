@@ -88,16 +88,30 @@
 - https://up.htmlacademy.ru/htmlcss/24/demos/1931 – Базовая стилизация карточки товара Барбершопа
 
 ## Лекция 6. Сетки
+### Вопросы и ответы
+- https://docs.google.com/document/d/1wbL_eNaJ2W72if7PEtnma1IZ8h3z0t0P18gKyqpr2H0/edit – Документ с вопросами
+    из материалов для подготовки и ответами лектора на них.
+  
+### Блочная модель
+- https://codepen.io/carolineartz/full/ogVXZj – Интерактивная диаграмма блочной модели документа
+- https://habr.com/ru/post/340420 – Организация отступов в верстке (margin/padding)
+- http://softwaremaniacs.org/blog/2005/09/05/css-layout-flow-margins – Границы и отступы в потоке
+
 ### Флексбоксы
-- https://frontender.info/a-guide-to-flexbox/ – Полное руководство по Flexbox
-- https://pepelsbey.net/pres/flexbox-gotcha/ – Презентация
+- https://frontender.info/a-guide-to-flexbox – Полное руководство по Flexbox
+- https://pepelsbey.net/pres/flexbox-gotcha – Презентация
 - https://vimeo.com/67011034 – Видео от Вадима Макеева
-- http://yoksel.github.io/flex-cheatsheet/ – Flexbox cheat sheet
-- https://philipwalton.github.io/solved-by-flexbox/ – Solved by Flexbox
+- http://yoksel.github.io/flex-cheatsheet – Flexbox cheat sheet
+- https://philipwalton.github.io/solved-by-flexbox – Solved by Flexbox
+- https://www.smashingmagazine.com/2015/03/harnessing-flexbox-for-todays-web-apps – Harnessing Flexbox For Today's Web Apps
+- https://codepen.io/enxaneta/full/adLPwv – Flexbox playground
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox – A Complete Guide to Flexbox
+- https://css-live.ru/articles/vizualnoe-rukovodstvo-po-svojstvam-flexbox-iz-css3.html – Визуальное руководство по свойствам Flexbox из CSS3
+- https://codepen.io/SelenIT/pen/yNNZxr – игровая площадка 
 
 ### Игры по флексбоксам
-- http://www.flexboxdefense.com/
-- 
+- http://www.flexboxdefense.com – Flexbox defense
+- http://flexboxfroggy.com/#ru – Flexbox froggy 
 
 
 ### Демки
@@ -119,6 +133,29 @@
 - https://up.htmlacademy.ru/htmlcss/24/demos/1953 – Завершение стилизации главной Барбершопа
 - https://up.htmlacademy.ru/htmlcss/24/demos/1949 – Завершение стилизации каталога Барбершопа
 - https://up.htmlacademy.ru/htmlcss/24/demos/1951 – Завершение стилизации карточки Барбершопа
+
+## Лекция 8. Оформление контента
+### Тонкости некоторых свойств
+- https://css-live.ru/articles/obzor-inlajnovyj-kontekst-formatirovaniya.html – Инлайновый контекст форматирования
+- https://bitsofco.de/the-vertical-align-property – The vertical-align Property
+- https://habr.com/ru/company/htmlacademy/blog/257743 – Блеск и нищета стандартных селектов
+- https://meiert.com/en/blog/important/ – The Truth About !important
+- https://css-live.ru/articles-css/impossible-pseudos.html – Псевдоэлементы, которых не может быть
+- https://medium.com/claritydesignsystem/pure-css-accessible-checkboxes-and-radios-buttons-54063e759bb3 – 
+    Pure CSS: Accessible Checkboxes and Radios Buttons
+
+### Работа с префиксами
+- http://shouldiprefix.com/ – What CSS to prefix?
+- https://autoprefixer.github.io/ru/ – Автопрефиксер онлайн
+
+### Переполнение
+- https://isqua.ru/blog/2016/06/19/crash-test-viorstki – Краш-тест вёрстки
+
+### Демки
+- https://up.htmlacademy.ru/htmlcss/24/demos/1959 – Примеры переполнения
+- https://up.htmlacademy.ru/htmlcss/24/demos/1961 – Текстовая страница «Барбершопа»
+- https://up.htmlacademy.ru/htmlcss/24/demos/1963 – Модальные окна в «Барбершопе»
+
 
 ---
 
