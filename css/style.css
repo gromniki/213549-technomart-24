@@ -1042,8 +1042,10 @@ address {
   line-height: 20px;
 }
 
-.filter-title {
+.filter-title,
+.sorting-title {
   margin: 0 0 20px;
+  padding: 8px 20px;
   font-size: 13px;
   font-weight: normal;
   line-height: 18px;
