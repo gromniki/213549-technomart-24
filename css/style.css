@@ -226,7 +226,7 @@ input[type="radio"].visually-hidden {
 
 /* HEADER */
 .main-header {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   padding-bottom: 60px;
   color: #000000;
   background-color: #f4f7f9;
@@ -989,7 +989,7 @@ address {
 
 /* Breadcrumbs */
 .breadcrumbs {
-  padding: 0 25px 25px 30px;
+  padding: 0 25px 20px 0;
   font-size: 13px;
   line-height: 18px;
 }
@@ -1003,13 +1003,30 @@ address {
 }
 
 .breadcrumbs-list li {
-  margin-right: 20px;
+  position: relative;
+  margin-right: 14px;
+  padding-right: 25px;
+}
+
+.breadcrumbs-list li:not(:last-of-type)::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  right: 0;
+  width: 8px;
+  height: 12px;
+  background: url("../img/icon-right-small.svg") no-repeat 0 0;
+}
+
+.breadcrumbs-list li:first-of-type::after {
+  right: 5px;
 }
 
 .breadcrumbs-main a {
   display: inline-block;
-  width: 17px;
+  width: 16px;
   height: 13px;
+  margin-top: 1px;
   background: url("../img/icon-home.svg") no-repeat 0 0;
 }
 
