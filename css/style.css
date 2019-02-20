@@ -1068,6 +1068,49 @@ address {
   list-style: none;
 }
 
+.filter-option {
+  margin-bottom: 20px;
+}
+
+.filter-option label {
+  position: relative;
+  padding-left: 35px;
+}
+
+.filter-option label::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  z-index: 1;
+  width: 23px;
+  height: 23px;
+  border: 2px solid #b5b5b5;
+  border-radius: 3px;
+}
+
+.filter-option label::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  z-index: 2;
+  width: 13px;
+  height: 4px;
+  border: 2px solid #232323;
+  border-radius: 0;
+  border-top-width: 0;
+  border-right-width: 0;
+  opacity: 0;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out;
+  transform: rotate(-45deg);
+}
+
+.filter-input:checked + label::after {
+  opacity: 1;
+}
+
 .filter-input:disabled + label {
   color: rgba(0, 0, 0, 0.4);
 }
@@ -1081,6 +1124,8 @@ address {
 }
 
 .sorting-title {
+  min-width: 220px;
+  margin: 0;
   font: inherit;
 }
 
@@ -1088,6 +1133,30 @@ address {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.sorting-list li:not(:last-of-type) {
+  margin-right: 70px;
+}
+
+.sorting-list a {
+  color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px dotted #ee3643;
+}
+
+.sorting-list a:hover,
+.sorting-list a:focus {
+  color: rgba(0, 0, 0, 1.0);
+  border-bottom-style: solid;
+  outline: none;
+}
+
+.sorting-list a:active,
+.sorting-current a,
+.sorting-current a:hover,
+.sorting-current a:focus {
+  color: #ee3643;
+  border-bottom: none;
 }
 
 /* Product List (catalog) */
