@@ -1043,7 +1043,7 @@ address {
 }
 
 .filter-title,
-.sorting-title {
+.sorting {
   margin: 0 0 20px;
   padding: 8px 20px;
   font-size: 13px;
@@ -1070,6 +1070,24 @@ address {
 
 .filter-input:disabled + label {
   color: rgba(0, 0, 0, 0.4);
+}
+
+/* Sorting */
+.sorting,
+.sorting-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sorting-title {
+  font: inherit;
+}
+
+.sorting-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 /* Product List (catalog) */
