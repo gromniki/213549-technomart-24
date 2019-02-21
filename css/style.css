@@ -1053,6 +1053,8 @@ address {
 }
 
 .filters fieldset {
+  margin: 0;
+  padding: 0;
   border: none;
 }
 
@@ -1067,6 +1069,56 @@ address {
   padding: 0;
   list-style: none;
 }
+
+/* range */
+.filter-range {
+
+  /* temp */
+  width: 220px;
+}
+
+.range-controls {
+  position: relative;
+  height: 80px;
+  margin-bottom: 10px;
+  padding: 39px 20px 0;
+  background-color: #f7f3ec;
+}
+
+.range-controls .scale {
+  height: 2px;
+  background: #d7dcde;
+}
+
+.range-controls .bar {
+  width: 70%;
+  height: 2px;
+  background-color: #00ca74;
+  /*background-color: #63a63e;*/
+}
+
+.range-toggle {
+  position: absolute;
+  top: 31px;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  padding: 0;
+  border: 8px solid #ffffff;
+  background-color: #00ca74;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+  cursor: pointer;
+}
+
+.range-toggle-min {
+  left: 18px;
+}
+
+.range-toggle-max {
+  left: 160px;
+}
+
 
 .filter-option {
   margin-bottom: 20px;
