@@ -156,6 +156,30 @@
 - https://up.htmlacademy.ru/htmlcss/24/demos/1961 – Текстовая страница «Барбершопа»
 - https://up.htmlacademy.ru/htmlcss/24/demos/1963 – Модальные окна в «Барбершопе»
 
+## Лекция 9. Введение в JavaScript
+### Основы JavaScript
+- https://vk.cc/94WNWq – Что такое DOM
+
+### Работа с клавиатурой
+- https://developer.mozilla.org/ru/docs/Web/Events – Клавиатурные события
+- http://keycod.es – Как узнать код клавиши 
+
+### Несколько статей
+- http://simonenko.su/38146501854/improving-ux-for-web-form – Улучшаем опыт взаимодействия с формами
+- https://habr.com/ru/company/htmlacademy/blog/255583 – Принципы анимации для веба
+- https://habr.com/ru/company/mailru/blog/273613 – Цена использования фреймворков
+- https://vk.cc/94WEVf – 
+- https://css-tricks.com/restart-css-animation/#article-header-id-0 – Описание трюка с offsetWidth
+
+### Что читать дальше
+- https://www.ozon.ru/context/detail/id/141703512 – JavaScript. Подробное руководство. 6-е издание
+- https://karmazzin.gitbooks.io/eloquentjavascript_ru – Выразительный Javascript
+- https://developer.mozilla.org/ru/docs/Web/JavaScript – MDN
+- https://learn.javascript.ru 
+
+### Демки
+- https://up.htmlacademy.ru/htmlcss/24/demos/1965 – Оживление формы Барбершопа
+- https://up.htmlacademy.ru/htmlcss/24/demos/1967 – Оживление карты Барбершопа
 
 ---
 
