@@ -1218,6 +1218,10 @@ address {
   margin-right: 70px;
 }
 
+.sorting-list li:nth-of-type(4) {
+  margin-right: 10px;
+}
+
 .sorting-list a {
   color: rgba(0, 0, 0, 0.3);
   border-bottom: 1px dotted #ee3643;
@@ -1238,6 +1242,16 @@ address {
   border-bottom: none;
 }
 
+.sorting-list .ascending::before {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border: 16px solid #ee3643;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: none;
+}
+
 /* Product List (catalog) */
 .catalog {
   width: 700px;
@@ -1248,7 +1262,7 @@ address {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0;
+  margin: 0 0 32px;
   padding: 0;
   list-style: none;
 }
@@ -1307,7 +1321,7 @@ address {
   display: none;
   width: 218px;
   padding: 40px 0;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 1.0);
   z-index: 10;
 }
 
@@ -1368,9 +1382,19 @@ address {
 
 .pagination-item a,
 .pagination-item-current {
+  display: inline-block;
+  padding: 10px 14px;
   color: #000000;
   border: 1px solid #e5e5e5;
   border-radius: 3px;
+}
+
+.pagination-item:not(:last-of-type) {
+  margin-right: 10px;
+}
+
+.pagination-item:last-of-type a {
+  padding: 10px 30px;
 }
 
 .pagination-item-current {
