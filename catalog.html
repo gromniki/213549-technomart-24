@@ -107,8 +107,9 @@
                 <div class="range-toggle  range-toggle-max"></div>
               </div>
               <div class="price-controls">
-                <label class="min-price">от <input type="text" name="min-price" value="0"></label>
-                <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+                <label class="min-price"><span class="visually-hidden">от</span><input type="text" name="min-price" value="0"></label>
+                <span>&mdash;</span>
+                <label class="max-price"><span class="visually-hidden">до</span><input type="text" name="max-price" value="3000"></label>
               </div>
             </div>
           </fieldset>
@@ -174,6 +175,10 @@
             <li class="sorting-current"><a href="#">По цене</a></li>
             <li><a href="#">По типу</a></li>
             <li><a href="#">По функционалу</a></li>
+          </ul>
+          <ul class="sorting-list">
+            <li class="asc"><a href="#"><span class="visually-hidden">По возрастанию</span></a></li>
+            <li class="desc"><a href="#"><span class="visually-hidden">По убыванию</span></a></li>
           </ul>
         </section>
 

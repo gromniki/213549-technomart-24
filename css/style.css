@@ -1059,9 +1059,10 @@ address {
 }
 
 .filters legend {
+  margin-bottom: 20px;
   font-size: 17px;
   font-weight: bold;
-  line-height: 30px;
+  line-height: 18px;
 }
 
 .filters ul {
@@ -1072,6 +1073,9 @@ address {
 
 /* range */
 .filter-range {
+  margin-bottom: 20px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #f7f3ec;
 
   /* temp */
   width: 220px;
@@ -1099,7 +1103,7 @@ address {
 
 .range-toggle {
   position: absolute;
-  top: 31px;
+  top: 30px;
   left: 0;
   width: 4px;
   height: 4px;
@@ -1119,6 +1123,29 @@ address {
 .range-toggle-max {
   left: 160px;
 }
+
+.price-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-controls input {
+  width: 95px;
+  padding: 10px;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 17px;
+  text-align: center;
+  line-height: 18px;
+  color: #000000;
+  background-color: #f7f3ec;
+  border: none;
+}
+
+.price-controls .max-price {
+
+}
+
 
 .filter-option {
   margin-bottom: 20px;
