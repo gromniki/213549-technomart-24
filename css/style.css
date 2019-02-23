@@ -1194,6 +1194,10 @@ address {
 }
 
 /* Sorting */
+.sorting {
+  padding: 8px 10px 8px 20px;
+}
+
 .sorting,
 .sorting-list {
   display: flex;
@@ -1218,11 +1222,11 @@ address {
 }
 
 .sorting-list li:nth-of-type(3) {
-  margin-right: 45px;
+  margin-right: 43px;
 }
 
 .sorting-list li:nth-of-type(4) {
-  margin-right: 10px;
+  margin-right: 22px;
 }
 
 .sorting-list a {
@@ -1245,28 +1249,54 @@ address {
   border-bottom: none;
 }
 
-.sorting-list .ascending,
+.sorting-list .asc,
 .sorting-list .desc {
   width: 10px;
   height: 10px;
   font-size: 0;
 }
 
-.ascending a:hover,
-.ascending a:focus,
-.desc a:hover,
-.desc a:focus {
-  border-bottom: none;
-  outline: none;
-}
-
-.ascending a {
+.asc a,
+.desc a {
   width: 0;
   height: 0;
   border: 5px solid #f7f3ec;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+.asc a {
+  border-bottom-color: #c5c5c5;
+  border-bottom-width: 9px;
+  border-top: none;
+}
+
+.desc a {
   border-top-color: #c5c5c5;
   border-top-width: 9px;
   border-bottom: none;
+}
+
+.asc a:hover,
+.asc a:focus {
+  border-top: none;
+  border-bottom-color: #000000;
+  outline: none;
+}
+
+.desc a:hover,
+.desc a:focus {
+  border-bottom: none;
+  border-top-color: #000000;
+  outline: none;
+}
+
+.asc-arrow-active a {
+  border-bottom-color: #ee3643;
+}
+
+.desc-arrow-active a {
+  border-top-color: #ee3643;
 }
 
 /* Product List (catalog) */
