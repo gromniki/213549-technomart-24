@@ -1153,9 +1153,11 @@ address {
 .filter-option label {
   position: relative;
   padding-left: 35px;
+  cursor: pointer;
 }
 
-.filter-option label::before {
+.filter-option label::before,
+.filter-option label::after {
   content: "";
   position: absolute;
   top: -2px;
@@ -1164,25 +1166,12 @@ address {
   width: 23px;
   height: 23px;
   border: 2px solid #b5b5b5;
-  border-radius: 3px;
 }
 
 .filter-option label::after {
-  content: "";
-  position: absolute;
-  top: 4px;
-  left: 4px;
-  z-index: 2;
-  width: 13px;
-  height: 4px;
-  border: 2px solid #232323;
-  border-radius: 0;
-  border-top-width: 0;
-  border-right-width: 0;
   opacity: 0;
   transition-duration: 0.25s;
   transition-timing-function: ease-in-out;
-  transform: rotate(-45deg);
 }
 
 .filter-input:checked + label::after {
@@ -1191,6 +1180,33 @@ address {
 
 .filter-input:disabled + label {
   color: rgba(0, 0, 0, 0.4);
+}
+
+.filter-input-checkbox + label::before {
+  border-radius: 3px;
+}
+
+.filter-input-checkbox + label::after {
+  top: 0;
+  left: 5px;
+  z-index: 2;
+  width: 20px;
+  height: 10px;
+  border: 4px solid #b5b5b5;
+  border-radius: 0;
+  border-top-width: 0;
+  border-right-width: 0;
+  box-shadow: 2px 2px 0 1px #ffffff,
+  inset -1px -2px 0 1px #ffffff;
+  transform: rotate(-45deg);
+}
+
+.filter-input-radio + label::before {
+  border-radius: 50%;
+}
+
+.filter-input-radio + label::after {
+  
 }
 
 /* Sorting */
