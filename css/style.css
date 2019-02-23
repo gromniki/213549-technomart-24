@@ -1146,7 +1146,6 @@ address {
 
 }
 
-
 .filter-option {
   margin-bottom: 20px;
 }
@@ -1218,6 +1217,10 @@ address {
   margin-right: 70px;
 }
 
+.sorting-list li:nth-of-type(3) {
+  margin-right: 45px;
+}
+
 .sorting-list li:nth-of-type(4) {
   margin-right: 10px;
 }
@@ -1242,13 +1245,27 @@ address {
   border-bottom: none;
 }
 
-.sorting-list .ascending::before {
+.sorting-list .ascending,
+.sorting-list .desc {
+  width: 10px;
+  height: 10px;
+  font-size: 0;
+}
+
+.ascending a:hover,
+.ascending a:focus,
+.desc a:hover,
+.desc a:focus {
+  border-bottom: none;
+  outline: none;
+}
+
+.ascending a {
   width: 0;
   height: 0;
-  display: inline-block;
-  border: 16px solid #ee3643;
-  border-left: transparent;
-  border-right: transparent;
+  border: 5px solid #f7f3ec;
+  border-top-color: #c5c5c5;
+  border-top-width: 9px;
   border-bottom: none;
 }
 
