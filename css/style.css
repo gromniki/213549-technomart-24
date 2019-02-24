@@ -1642,6 +1642,7 @@ address {
 
 /* modal feedback */
 .modal-feedback {
+  width: 620px;
   padding-top: 50px;
   border-top: 7px solid #ee3643;
 }
