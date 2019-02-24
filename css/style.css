@@ -1142,8 +1142,13 @@ address {
   border: none;
 }
 
-.price-controls .max-price {
+.price-controls .max-price {}
 
+/* filter brands */
+.filters .filter-brands {
+  margin-bottom: 22px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #f7f3ec;
 }
 
 .filter-option {
@@ -1201,12 +1206,25 @@ address {
   transform: rotate(-45deg);
 }
 
+/* filter power */
+.filters .filter-power {
+  margin-bottom: 58px;
+}
+
 .filter-input-radio + label::before {
+  width: 25px;
+  height: 25px;
+  border-width: 4px;
   border-radius: 50%;
 }
 
 .filter-input-radio + label::after {
-  
+  top: 6px;
+  left: 8px;
+  width: 9px;
+  height: 9px;
+  background-color: #c5c5c5;
+  border-radius: 50%;
 }
 
 /* Sorting */
