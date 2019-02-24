@@ -443,12 +443,14 @@
       <label for="modal-text">Текст письма:</label>
       <textarea id="modal-text" name="text" cols="30" rows="10" value="" placeholder="В свободной форме"></textarea>
     </p>
-    <button class="button" type="submit">Отправить</button>
+    <div class="wrapper">
+      <button class="btn" type="submit">Отправить</button>
+    </div>
   </form>
   <button class="modal-close" type="button">Закрыть</button>
 </section>
 
-<section class="modal  modal-map">
+<section class="modal  modal-map" style="display: none;">
   <h2 class="visually-hidden">Как до нас добраться</h2>
   <img src="img/map.jpg" width="300" height="158"
        alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
