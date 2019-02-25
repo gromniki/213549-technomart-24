@@ -1634,7 +1634,7 @@ address {
 
 .modal label {
   display: block;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
   font-size: 18px;
   line-height: 18px;
 }
