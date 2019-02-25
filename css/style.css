@@ -1102,7 +1102,8 @@ address {
   border: none;
 }
 
-.price-controls .max-price {}
+.price-controls .max-price {
+}
 
 /* filter brands */
 .filters .filter-brands {
@@ -1641,9 +1642,18 @@ address {
 
 .modal input,
 .modal textarea {
-  padding: 10px 15px;
+  width: 100%;
+  padding: 8px 15px;
   border: 2px solid #d7dcde;
   border-radius: 3px;
+}
+
+.modal input::placeholder,
+.modal textarea::placeholder {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #a9a9a9;
 }
 
 .modal input:hover,
@@ -1674,7 +1684,7 @@ address {
   content: "";
   position: absolute;
   top: 10px;
-  left: 0;
+  left: -1px;
   width: 27px;
   height: 4px;
   background-color: #ee3643;
@@ -1690,14 +1700,35 @@ address {
 }
 
 /* modal feedback */
-.modal-feedback {
+.modal-feedback,
+.modal-added-product {
   width: 620px;
   padding-top: 50px;
   border-top: 7px solid #ee3643;
 }
 
-.modal-feedback .modal-item {
+.modal-feedback .index-column {
   padding: 0 80px;
+}
+
+.modal-feedback input {
+  width: 220px;
+}
+
+.modal-item {
+  margin: 0;
+}
+
+.modal-item-input:first-of-type {
+  margin-right: 20px;
+}
+
+.modal-item-textarea {
+  padding: 20px 80px 30px;
+}
+
+.modal-item-textarea textarea {
+  resize: vertical;
 }
 
 .modal .wrapper {
@@ -1707,6 +1738,24 @@ address {
 
 .modal-feedback .btn {
   width: 100%;
+}
+
+/* modal added to cart */
+.modal-added-product h2 {
+  position: relative;
+  margin: 0;
+  padding: 0 80px;
+  text-align: center;
+}
+
+.modal-added-product h2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 66px;
+  height: 66px;
+  background: url("../img/icon-mark.svg") no-repeat 0 0;
 }
 
 .modal-show {
