@@ -1761,6 +1761,11 @@ address {
   width: 100%;
 }
 
+/* modal map */
+.modal-map iframe {
+
+}
+
 /* modal added to cart */
 .modal-added-product h2 {
   position: relative;

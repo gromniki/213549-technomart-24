@@ -434,16 +434,16 @@
     <div class="index-column">
       <p class="modal-item  modal-item-input">
         <label for="modal-name">Ваше имя:</label>
-        <input id="modal-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+        <input id="modal-name" type="text" name="name" placeholder="Имя Фамилия">
       </p>
       <p class="modal-item  modal-item-input">
         <label for="modal-email">Ваш e-mail:</label>
-        <input id="modal-email" type="email" name="email" value="" placeholder="email@example.com">
+        <input id="modal-email" type="email" name="email" placeholder="email@example.com">
       </p>
     </div>
     <p class="modal-item  modal-item-textarea">
       <label for="modal-text">Текст письма:</label>
-      <textarea id="modal-text" name="text" cols="30" rows="5" value="" placeholder="В свободной форме"></textarea>
+      <textarea id="modal-text" name="text" cols="30" rows="5" placeholder="В свободной форме"></textarea>
     </p>
     <div class="wrapper">
       <button class="btn" type="submit">Отправить</button>
@@ -452,10 +452,11 @@
   <button class="modal-close" type="button"><span class="visually-hidden">Закрыть</span></button>
 </section>
 
-<section class="modal  modal-map" style="display: none;">
+<section class="modal  modal-map">
   <h2 class="visually-hidden">Как до нас добраться</h2>
-  <img src="img/map.jpg" width="300" height="158"
-       alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+  <div class="gmap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6787723929237!2d30.32360529820472!3d59.9374722958001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1551192452281" width="940" height="450" style="border:0" allowfullscreen></iframe>
+  </div>
   <button class="modal-close" type="button"><span class="visually-hidden">Закрыть</span></button>
 </section>
 
