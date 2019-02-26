@@ -224,6 +224,21 @@ input[type="radio"].visually-hidden {
   opacity: 0.3;
 }
 
+.btn-white {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.btn-white:active {
+  background-color: #ba2732;
+}
+
 /* HEADER */
 .main-header {
   margin-bottom: 20px;
@@ -1743,19 +1758,29 @@ address {
 /* modal added to cart */
 .modal-added-product h2 {
   position: relative;
-  margin: 0;
-  padding: 0 80px;
-  text-align: center;
+  margin: 0 0 50px;
+  padding: 20px 80px 20px 180px;
+  font-size: 30px;
+  line-height: 30px;
 }
 
 .modal-added-product h2::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 80px;
   width: 66px;
-  height: 66px;
+  height: 67px;
   background: url("../img/icon-mark.svg") no-repeat 0 0;
+  transform: translate(0, -50%);
+}
+
+.modal-added-product .btn {
+  min-width: 220px;
+}
+
+.modal-added-product .btn-red {
+  margin-right: 15px;
 }
 
 .modal-show {
