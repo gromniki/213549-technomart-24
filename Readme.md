@@ -181,6 +181,30 @@
 - https://up.htmlacademy.ru/htmlcss/24/demos/1965 – Оживление формы Барбершопа
 - https://up.htmlacademy.ru/htmlcss/24/demos/1967 – Оживление карты Барбершопа
 
+## Лекция 10. Лучшие практики
+### Прогрессивное улучшение
+- https://htmlacademy.ru/blog/7-progressive-enhancement – Progressive Enhancement
+- https://htmlacademy.ru/blog/8-is-it-expensive-to-progressive-enhancement – Так ли дорого прогрессивное улучшение?
+- https://vimeo.com/194815985 – Ire Aderinokun — Progressive Enhancement and CSS
+- https://speakerdeck.com/ireade/what-about-css-progressive-enhancement-and-css – What about CSS?
+- https://htmlacademy.ru/blog/6-graceful-degradation – Graceful Degradation
+- https://events.yandex.ru/lib/talks/373 – Progressive Enhancement: практичный подход
+    к современной кроссбраузерной разработке
+- https://github.com/FrontenderMagazine/everyone-has-js/blob/master/rus.md – У всех есть JavaScript, да?
+- https://wsd.events/2015/06/20/pres/little-browsers – Браузеры наши меньшие. Презентация Вадима Макеева
+- https://vimeo.com/151208337 – Видео к предыдущей презентации
+- https://htmlacademy.ru/demos/1#step1 – Progressive enhancement на примере формы входа
+- https://www.smashingmagazine.com/2016/09/building-social-a-case-study-on-progressive-enhancement – Building Social:
+    A Case Study On Progressive Enhancement
+    
+### Тестирование и оптимизация
+- https://radar.yandex.ru/browsers – Яндекс Радар
+
+### Демки
+- https://up.htmlacademy.ru/htmlcss/24/demos/2137 – Практики: вставка видео
+- https://up.htmlacademy.ru/htmlcss/24/demos/2139 - Практики: градиенты с фолбеком
+- https://up.htmlacademy.ru/htmlcss/24/demos/2141#1 - Практики: гигантские SVG-иконки
+
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
