@@ -636,7 +636,7 @@ address {
 
 .category-list {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .features {
@@ -654,6 +654,14 @@ address {
   margin-bottom: 20px;
   padding: 20px 25px;
   color: #ffffff;
+}
+
+.category-item {
+  margin: 0 20px 20px 0;
+}
+
+.category-item:nth-of-type(3n) {
+  margin-right: 0;
 }
 
 .category-item h3,
@@ -779,6 +787,14 @@ address {
   font-family: "PT Sans", Arial, sans-serif;
 }
 
+.popular .product-item:nth-of-type(3n) {
+  margin-right: 20px;
+}
+
+.popular .product-item:nth-of-type(4n) {
+  margin-right: 0;
+}
+
 .popular-title,
 .brands-title {
   display: flex;
@@ -803,7 +819,6 @@ address {
 
 .brands-list {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
@@ -813,10 +828,14 @@ address {
 .brands-item {
   width: 220px;
   height: 145px;
-  margin-bottom: 20px;
+  margin: 0 20px 20px 0;
   background-color: #ffffff;
   border: 1px solid #eaeaea;
   transition-duration: 0.2s;
+}
+
+.brands-item:nth-of-type(4n) {
+  margin-right: 0;
 }
 
 .brands-item:hover,
@@ -960,6 +979,7 @@ address {
   padding: 30px;
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 30px;
+  font-weight: normal;
   line-height: 30px;
   color: #32425c;
   background-color: #f2f6f8;
@@ -1266,54 +1286,29 @@ address {
   border-bottom: none;
 }
 
-.sorting-list .asc,
-.sorting-list .desc {
-  width: 10px;
-  height: 10px;
-  font-size: 0;
+.sorting-list .sorting-arrow {
+  width: 11px;
 }
 
-.asc a,
-.desc a {
-  width: 0;
-  height: 0;
-  border: 5px solid #f7f3ec;
-  border-left-color: transparent;
-  border-right-color: transparent;
+.sorting-arrow path {
+  fill: #231f20;
+  opacity: 0.2;
 }
 
-.asc a {
-  border-bottom-color: #c5c5c5;
-  border-bottom-width: 9px;
-  border-top: none;
-}
-
-.desc a {
-  border-top-color: #c5c5c5;
-  border-top-width: 9px;
+.sorting-arrow a,
+.sorting-arrow a:hover,
+.sorting-arrow a:focus {
   border-bottom: none;
 }
 
-.asc a:hover,
-.asc a:focus {
-  border-top: none;
-  border-bottom-color: #000000;
-  outline: none;
+.sorting-arrow a:hover path,
+.sorting-arrow a:focus path {
+  opacity: 1;
 }
 
-.desc a:hover,
-.desc a:focus {
-  border-bottom: none;
-  border-top-color: #000000;
-  outline: none;
-}
-
-.asc-arrow-active a {
-  border-bottom-color: #ee3643;
-}
-
-.desc-arrow-active a {
-  border-top-color: #ee3643;
+.sorting-arrow-active path {
+  fill: #ee3643;
+  opacity: 1;
 }
 
 /* Product List (catalog) */
@@ -1551,6 +1546,7 @@ address {
 .footer-navigation-section {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 550px;
   padding: 0;
 }
