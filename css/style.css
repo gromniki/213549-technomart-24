@@ -1800,6 +1800,11 @@ address {
   animation-duration: 0.6s;
 }
 
+.modal-hide {
+  animation-name: slideUp;
+  animation-duration: 0.6s;
+}
+
 /* Animations */
 @keyframes bounce {
   0% {
@@ -1820,5 +1825,19 @@ address {
   100% {
     /*transform: translateY(0);*/
     transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+
+  80% {
+    transform: translate(-50%, -60%);
+  }
+
+  100% {
+    transform: translate(-50%, -500%);
   }
 }
