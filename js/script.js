@@ -1,9 +1,12 @@
-window.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('DOMContentLoaded', function () {
   'use strict';
 
   var btnShowFeedback = document.querySelector('.js-btn-show-modal-feedback');
   var feedbackPopup = document.querySelector('.modal-feedback');
   var feedbackClose = feedbackPopup.querySelector('.modal-close');
+  var nameField = feedbackPopup.querySelector('[name=name]');
+  var emailField = feedbackPopup.querySelector('[name=email]');
+  var commentField = feedbackPopup.querySelector('[name=text]');
 
   var btnMap = document.querySelector('.js-btn-show-modal-map');
   var mapPopup = document.querySelector('.modal-map');
@@ -11,8 +14,6 @@ window.addEventListener('DOMContentLoaded', function() {
 
   var btnAdded2Cart = document.querySelector('.btn-buy');
   var modalAdded2Cart = document.querySelector('.modal-added-product');
-
-
 
   function modalClose(btnClose, popup) {
     btnClose.addEventListener('click', function (evt) {
