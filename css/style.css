@@ -1763,7 +1763,7 @@ address {
 
 /* modal map */
 .modal-map iframe {
-
+  border: none;
 }
 
 /* modal added to cart */
@@ -1814,7 +1814,7 @@ address {
 
   70% {
     /*transform: translateY(30px);*/
-    transform: translate(-50%, -25%);
+    transform: translate(-50%, -30%);
   }
 
   90% {

@@ -159,6 +159,7 @@
 ## Лекция 9. Введение в JavaScript
 ### Основы JavaScript
 - https://vk.cc/94WNWq – Что такое DOM
+- https://tproger.ru/articles/localstorage/ – просто о localStorage
 
 ### Работа с клавиатурой
 - https://developer.mozilla.org/ru/docs/Web/Events – Клавиатурные события
