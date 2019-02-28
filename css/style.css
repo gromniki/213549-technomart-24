@@ -258,8 +258,8 @@ input[type="radio"].visually-hidden {
   display: flex;
   justify-content: space-between;
   -webkit-box-align: center;
--ms-flex-align: center;
-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -773,6 +773,7 @@ address {
 #btn-1:checked ~ .slider-inner .slider-slides {
   transform: translate(0);
 }
+
 #btn-2:checked ~ .slider-inner .slider-slides {
   transform: translate(-620px);
 }
@@ -792,8 +793,6 @@ address {
   width: 620px;
   height: 266px;
 }
-
-
 
 .slider-item h3 {
   top: 22px;
@@ -929,14 +928,14 @@ address {
   margin-bottom: 68px;
 }
 
-.services .slider {
+.services-slider {
   display: flex;
   justify-content: space-between;
   color: #000000;
 }
 
 .services h3 {
-  margin: 0;
+  margin: 0 0 25px;
   font-size: 36px;
   font-weight: normal;
   line-height: 36px;
@@ -959,16 +958,52 @@ address {
   cursor: pointer;
 }
 
-.services .slider-controls {
+.services-slider-controls {
+  position: relative;
   margin-right: 80px;
 }
 
-.services-slider-item {
-  display: flex;
-  align-items: flex-start;
+.services-slider-controls::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  right: 0;
+  width: 10px;
+  height: 280px;
+  background: url("../img/shadow.png") no-repeat 0 0;
 }
 
-.services .slide-description {
+#services-btn-1:checked ~ .services-slider-controls label[for="services-btn-1"],
+#services-btn-2:checked ~ .services-slider-controls label[for="services-btn-2"],
+#services-btn-2:checked ~ .services-slider-controls label[for="services-btn-2"] {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+#services-btn-1:checked ~ .services-slider-inner .services-slider-slides {
+  transform: translate(0);
+}
+
+#services-btn-2:checked ~ .services-slider-inner .services-slider-slides {
+  transform: translate(-620px);
+}
+
+.services-slider-inner {
+  width: 620px;
+}
+
+.services-slider-slides {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.services-slider-item:nth-of-type(1) {
+  background: url("../img/delivery.png") no-repeat right center;
+}
+
+.services-slide-description {
   max-width: 300px;
 }
 
