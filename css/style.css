@@ -744,6 +744,57 @@ address {
   margin: 0;
 }
 
+.slider-controls {
+  position: absolute;
+  left: 50%;
+  bottom: 36px;
+  z-index: 3;
+  transform: translate(-50%, 0);
+}
+
+.slider-controls label {
+  display: inline-block;
+  margin: 0 3px;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#btn-1:checked ~ .slider-controls label[for="btn-1"],
+#btn-2:checked ~ .slider-controls label[for="btn-2"] {
+  background-color: #ee3643;
+}
+
+#btn-1:checked ~ .slider-inner .slider-slides {
+  transform: translate(0);
+}
+#btn-2:checked ~ .slider-inner .slider-slides {
+  transform: translate(-620px);
+}
+
+.slider-inner {
+  max-width: 620px;
+  overflow: hidden;
+}
+
+.slider-slides {
+  display: flex;
+  width: 200%;
+  transition: transform 0.8s ease;
+}
+
+.slider-item img {
+  width: 620px;
+  height: 266px;
+}
+
+
+
 .slider-item h3 {
   top: 22px;
   left: 24px;

@@ -11,10 +11,11 @@ window.addEventListener('DOMContentLoaded', function () {
   var btnMap = document.querySelector('.js-btn-show-modal-map');
   var mapPopup = document.querySelector('.modal-map');
 
-  var popupClose = document.querySelectorAll('.modal-close');
-
-  var btnAdded2Cart = document.querySelector('.btn-buy');
+  var productList = document.querySelector('.product-list');
+  var btnAdded2Cart = document.querySelectorAll('.btn-buy');
   var modalAdded2Cart = document.querySelector('.modal-added-product');
+
+  var popupClose = document.querySelectorAll('.modal-close');
 
   /* temp */
   var modals = document.querySelectorAll('.modal');
@@ -29,17 +30,19 @@ window.addEventListener('DOMContentLoaded', function () {
     isStorageSupport = false;
   }
 
-  btnShowFeedback.addEventListener('click', function (evt) {
-    evt.preventDefault();
-    feedbackPopup.classList.add('modal-show');
+  if (btnShowFeedback != null) {
+    btnShowFeedback.addEventListener('click', function (evt) {
+      evt.preventDefault();
+      feedbackPopup.classList.add('modal-show');
 
-    if (storage) {
-      nameField.value = storage;
-      emailField.focus();
-    } else {
-      nameField.focus();
-    }
-  });
+      if (storage) {
+        nameField.value = storage;
+        emailField.focus();
+      } else {
+        nameField.focus();
+      }
+    });
+  }
 
   form.addEventListener('submit', function (evt) {
     if (!nameField.value || !emailField.value || !commentField.value) {
@@ -69,6 +72,25 @@ window.addEventListener('DOMContentLoaded', function () {
       console.log('Закрыл элемент ' + this.parentNode.className);
     });
   }
+
+
+  productList.addEventListener('click', function (evt) {
+    evt.preventDefault();
+    //if (evt.target && evt.target.classList.contains('btn-buy')) {}  // какой метод лучше?
+    //if (evt.target && evt.target.matches('a.btn-buy')) {
+    if (evt.target && evt.target.classList.contains('btn-buy')) {
+      console.log('Попал по кнопке');
+      modalAdded2Cart.classList.add('modal-show');
+    }
+  });
+
+  // for (var b = 0; b < btnAdded2Cart.length; b++) {
+  //   btnAdded2Cart[b].addEventListener('click', function (evt) {
+  //     evt.preventDefault();
+  //     modalAdded2Cart.classList.add('modal-show');
+  //   });
+  //   console.log('Кнопка ' + b);
+  // }
 
   document.addEventListener('keydown', function (evt) {
     if (evt.keyCode === 27) {
