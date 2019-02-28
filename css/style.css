@@ -1828,6 +1828,10 @@ address {
   animation-duration: 0.6s;
 }
 
+.modal-error {
+  animation: shake 0.6s;
+}
+
 /* Animations */
 @keyframes bounce {
   0% {
@@ -1862,5 +1866,31 @@ address {
 
   100% {
     transform: translate(-50%, -500%);
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translate(-50%, -50%);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    /*transform: translate(-60%, -50%);*/
+    /*transform: translateX(-45%);*/
+    transform: translate(-48%, -50%);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    /*transform: translate(-40%, -50%);*/
+    /*transform: translateX(-55%);*/
+    transform: translate(-52%, -50%);
   }
 }
