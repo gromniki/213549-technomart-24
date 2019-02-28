@@ -257,7 +257,10 @@ input[type="radio"].visually-hidden {
 .header-top .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  -webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+  flex-wrap: wrap;
 }
 
 .header-top a {
@@ -594,6 +597,8 @@ address {
 }
 
 .main-navigation-list {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   min-height: 55px;
   padding: 0 25px;
@@ -642,6 +647,7 @@ address {
 .features {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: wrap;
   margin-bottom: 34px;
 }
@@ -799,6 +805,8 @@ address {
 .brands-title {
   display: flex;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   flex-wrap: wrap;
   margin: 0 0 20px;
@@ -852,6 +860,8 @@ address {
 .brands-item a {
   display: flex;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 100%;
 }
@@ -1122,6 +1132,8 @@ address {
 .price-controls {
   display: flex;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -1238,6 +1250,8 @@ address {
 .sorting,
 .sorting-list {
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -1327,8 +1341,15 @@ address {
 
 .product-item {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   width: 220px;
   margin: 0 20px 20px 0;
@@ -1606,6 +1627,8 @@ address {
 
 .social-links {
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   justify-content: center;
   width: 43px;
