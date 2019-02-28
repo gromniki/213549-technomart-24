@@ -3,7 +3,6 @@ window.addEventListener('DOMContentLoaded', function () {
 
   var btnShowFeedback = document.querySelector('.js-btn-show-modal-feedback');
   var feedbackPopup = document.querySelector('.modal-feedback');
-  var feedbackClose = feedbackPopup.querySelector('.modal-close');
   var form = feedbackPopup.querySelector('.modal-form');
   var nameField = feedbackPopup.querySelector('[name=name]');
   var emailField = feedbackPopup.querySelector('[name=email]');
@@ -11,37 +10,32 @@ window.addEventListener('DOMContentLoaded', function () {
 
   var btnMap = document.querySelector('.js-btn-show-modal-map');
   var mapPopup = document.querySelector('.modal-map');
-  var mapClose = mapPopup.querySelector('.modal-close');
+
+  var popupClose = document.querySelectorAll('.modal-close');
+
+  var btnAdded2Cart = document.querySelector('.btn-buy');
+  var modalAdded2Cart = document.querySelector('.modal-added-product');
 
   var isStorageSupport = true;
   var storage = '';
 
   try {
     storage = localStorage.getItem('name');
+    //storage = localStorage.getItem('email');
   } catch (err) {
     isStorageSupport = false;
-  }
-
-  var btnAdded2Cart = document.querySelector('.btn-buy');
-  var modalAdded2Cart = document.querySelector('.modal-added-product');
-
-  function modalClose(btnClose, popup) {
-    btnClose.addEventListener('click', function (evt) {
-      evt.preventDefault();
-      popup.classList.remove('modal-show');
-    });
   }
 
   btnShowFeedback.addEventListener('click', function (evt) {
     evt.preventDefault();
     feedbackPopup.classList.add('modal-show');
-    modalClose(feedbackClose, feedbackPopup);
 
     if (storage) {
       nameField.value = storage;
+      emailField.focus();
+    } else {
+      nameField.focus();
     }
-
-    nameField.focus();
   });
 
   form.addEventListener('submit', function (evt) {
@@ -60,8 +54,23 @@ window.addEventListener('DOMContentLoaded', function () {
     evt.preventDefault();
 
     mapPopup.classList.add('modal-show');
+  });
 
-    modalClose(mapClose, mapPopup);
+  for (var i = 0; i < popupClose.length; i++) {
+    popupClose[i].addEventListener('click', function (evt) {
+      evt.preventDefault();
+      this.parentNode.classList.remove('modal-show');
+      console.log('Закрыл элемент ' + this.parentNode.className);
+    });
+  }
+
+  window.addEventListener('keydown', function (evt) {
+    if (evt.keyCode === 27) {
+      evt.preventDefault();
+      if (feedbackPopup.classList.contains('modal-show')) {
+        feedbackPopup.classList.remove('modal-show');
+      }
+    }
   });
 
   // btnAdded2Cart.addEventListener('click', function (evt) {
