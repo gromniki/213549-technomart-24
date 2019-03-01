@@ -786,7 +786,6 @@ address {
 .slider-slides {
   display: flex;
   width: 200%;
-  transition: transform 0.8s ease;
 }
 
 .slider-item img {
@@ -923,7 +922,7 @@ address {
 /* Services */
 .services {
   margin-bottom: 80px;
-  padding: 40px 0 50px;
+  padding: 40px 0 0;
   background-color: #f4f7f9;
 }
 
@@ -950,7 +949,7 @@ address {
 .services label {
   display: block;
   width: 240px;
-  padding: 15px 20px;
+  padding: 16px 20px;
   font-size: 21px;
   font-weight: bold;
   line-height: 30px;
@@ -979,9 +978,10 @@ address {
 
 #services-btn-1:checked ~ .services-slider-controls label[for="services-btn-1"],
 #services-btn-2:checked ~ .services-slider-controls label[for="services-btn-2"],
-#services-btn-2:checked ~ .services-slider-controls label[for="services-btn-2"] {
+#services-btn-3:checked ~ .services-slider-controls label[for="services-btn-3"] {
   color: #000000;
   background-color: #ffffff;
+  box-shadow: none;
 }
 
 #services-btn-1:checked ~ .services-slider-inner .services-slider-slides {
@@ -992,23 +992,46 @@ address {
   transform: translate(-620px);
 }
 
+#services-btn-3:checked ~ .services-slider-inner .services-slider-slides {
+  transform: translate(-1240px);
+}
+
 .services-slider-inner {
   width: 620px;
+  min-height: 284px;
+  overflow: hidden;
 }
 
 .services-slider-slides {
+  display: flex;
+  width: 300%;
   height: 100%;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
+.services-slider-item {
+  width: 620px;
+  height: 100%;
+  background-position: right 25px;
+  background-repeat: no-repeat;
+}
+
 .services-slider-item:nth-of-type(1) {
-  background: url("../img/delivery.png") no-repeat right center;
+  background-image: url("../img/delivery.png");
+}
+
+.services-slider-item:nth-of-type(2) {
+  background-image: url("../img/guarantee.png");
+}
+
+.services-slider-item:nth-of-type(3) {
+  background-image: url("../img/credit.png");
 }
 
 .services-slide-description {
-  max-width: 300px;
+  max-width: 275px;
 }
 
 /* About */
@@ -1431,16 +1454,9 @@ address {
 
 .product-item {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
+  /*display: flex;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  align-items: center;*/
   width: 220px;
   margin: 0 20px 20px 0;
   text-align: center;
@@ -1502,6 +1518,10 @@ address {
   display: block;
 }
 
+/*.product-text-wrapper {
+  width: 100%;
+}*/
+
 .product-title {
   margin: 0 0 10px;
   padding: 0 25px;
@@ -1514,6 +1534,9 @@ address {
 }
 
 .old-price {
+  /*temp*/
+  min-height: 18px;
+
   margin: 0 0 12px;
   font-weight: bold;
   color: #999999;
