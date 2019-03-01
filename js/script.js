@@ -11,14 +11,14 @@ window.addEventListener('DOMContentLoaded', function () {
   var btnMap = document.querySelector('.js-btn-show-modal-map');
   var mapPopup = document.querySelector('.modal-map');
 
-  var productList = document.querySelector('.product-list');
+  //var productList = document.querySelector('.product-list');
   var btnAdded2Cart = document.querySelectorAll('.btn-buy');
   var modalAdded2Cart = document.querySelector('.modal-added-product');
 
   var popupClose = document.querySelectorAll('.modal-close');
 
   /* temp */
-  var modals = document.querySelectorAll('.modal');
+  // var modals = document.querySelectorAll('.modal');
 
   var isStorageSupport = true;
   var storage = '';
@@ -74,23 +74,22 @@ window.addEventListener('DOMContentLoaded', function () {
   }
 
 
-  productList.addEventListener('click', function (evt) {
-    evt.preventDefault();
-    //if (evt.target && evt.target.classList.contains('btn-buy')) {}  // какой метод лучше?
-    //if (evt.target && evt.target.matches('a.btn-buy')) {
-    if (evt.target && evt.target.classList.contains('btn-buy')) {
-      console.log('Попал по кнопке');
-      modalAdded2Cart.classList.add('modal-show');
-    }
-  });
+  // productList.addEventListener('click', function (evt) {
+  //   evt.preventDefault();
+  //   //if (evt.target && evt.target.classList.contains('btn-buy')) {}  // какой метод лучше?
+  //   //if (evt.target && evt.target.matches('a.btn-buy')) {
+  //   if (evt.target && evt.target.classList.contains('btn-buy')) {
+  //     console.log('Попал по кнопке');
+  //     //modalAdded2Cart.classList.add('modal-show');
+  //   }
+  // });
 
-  // for (var b = 0; b < btnAdded2Cart.length; b++) {
-  //   btnAdded2Cart[b].addEventListener('click', function (evt) {
-  //     evt.preventDefault();
-  //     modalAdded2Cart.classList.add('modal-show');
-  //   });
-  //   console.log('Кнопка ' + b);
-  // }
+  for (var b = 0; b < btnAdded2Cart.length; b++) {
+    btnAdded2Cart[b].addEventListener('click', function (evt) {
+      evt.preventDefault();
+      modalAdded2Cart.classList.add('modal-show');
+    });
+  }
 
   document.addEventListener('keydown', function (evt) {
     if (evt.keyCode === 27) {
@@ -120,14 +119,6 @@ window.addEventListener('DOMContentLoaded', function () {
   //     }
   //   });
   // }
-
-  // btnAdded2Cart.addEventListener('click', function (evt) {
-  //   evt.preventDefault();
-  //
-  //   modalAdded2Cart.classList.add('modal-show');
-  //
-  //   modalClose(modalAdded2Cart);
-  // });
 });
 
 

@@ -843,6 +843,10 @@ address {
   font-family: "PT Sans", Arial, sans-serif;
 }
 
+.popular .product-list {
+  margin-bottom: 0;
+}
+
 .popular .product-item:nth-of-type(3n) {
   margin-right: 20px;
 }
@@ -1707,10 +1711,6 @@ address {
   padding: 0;
 }
 
-.footer-social-list li {
-
-}
-
 .social-links {
   display: flex;
   -webkit-box-align: center;
@@ -1921,22 +1921,18 @@ address {
 /* Animations */
 @keyframes bounce {
   0% {
-    /*transform: translateY(-2000px);*/
     transform: translate(-50%, -500%);
   }
 
   70% {
-    /*transform: translateY(30px);*/
     transform: translate(-50%, -30%);
   }
 
   90% {
-    /*transform: translateY(-10px);*/
     transform: translate(-50%, -60%);
   }
 
   100% {
-    /*transform: translateY(0);*/
     transform: translate(-50%, -50%);
   }
 }
@@ -1966,8 +1962,6 @@ address {
   50%,
   70%,
   90% {
-    /*transform: translate(-60%, -50%);*/
-    /*transform: translateX(-45%);*/
     transform: translate(-48%, -50%);
   }
 
@@ -1975,8 +1969,6 @@ address {
   40%,
   60%,
   80% {
-    /*transform: translate(-40%, -50%);*/
-    /*transform: translateX(-55%);*/
     transform: translate(-52%, -50%);
   }
 }
