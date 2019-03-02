@@ -7,25 +7,21 @@ window.addEventListener('DOMContentLoaded', function () {
   var nameField = feedbackPopup.querySelector('[name=name]');
   var emailField = feedbackPopup.querySelector('[name=email]');
   var commentField = feedbackPopup.querySelector('[name=text]');
+  var isStorageSupport = true;
+  var storageName = '';
+  var storageEmail = '';
 
   var btnMap = document.querySelector('.js-btn-show-modal-map');
   var mapPopup = document.querySelector('.modal-map');
 
-  //var productList = document.querySelector('.product-list');
   var btnAdded2Cart = document.querySelectorAll('.btn-buy');
   var modalAdded2Cart = document.querySelector('.modal-added-product');
 
   var popupClose = document.querySelectorAll('.modal-close');
 
-  /* temp */
-  // var modals = document.querySelectorAll('.modal');
-
-  var isStorageSupport = true;
-  var storage = '';
-
   try {
-    storage = localStorage.getItem('name');
-    //storage = localStorage.getItem('email');
+    storageName = localStorage.getItem('name');
+    storageEmail = localStorage.getItem('email');
   } catch (err) {
     isStorageSupport = false;
   }
@@ -35,35 +31,54 @@ window.addEventListener('DOMContentLoaded', function () {
       evt.preventDefault();
       feedbackPopup.classList.add('modal-show');
 
-      if (storage) {
-        nameField.value = storage;
+      if (storageName) {
+        nameField.value = storageName;
         emailField.focus();
+      } else if (storageEmail) {
+        emailField.value = storageEmail;
+        commentField.focus();
       } else {
         nameField.focus();
       }
     });
+
+
+    form.addEventListener('submit', function (evt) {
+      if (!nameField.value || !emailField.value || !commentField.value) {
+        evt.preventDefault();
+        console.log('Нужно заполнить все поля');
+        //feedbackPopup.classList.remove("modal-error");
+        //feedbackPopup.offsetWidth = feedbackPopup.offsetWidth;
+        feedbackPopup.classList.add('modal-error');
+      } else {
+        if (isStorageSupport) {
+          localStorage.setItem('name', nameField.value);
+          localStorage.setItem('email', emailField.value);
+
+          //localStorage.setItem('name', nameField.value);
+          //localStorage.setItem('email', emailField.value);
+        }
+      }
+    });
+
+    window.addEventListener('keydown', function (evt) {
+      if (evt.keyCode === 27) {
+        evt.preventDefault();
+        if (feedbackPopup.classList.contains('modal-show')) {
+          feedbackPopup.classList.remove('modal-show');
+          feedbackPopup.classList.remove("modal-error");
+        }
+      }
+    });
   }
 
-  form.addEventListener('submit', function (evt) {
-    if (!nameField.value || !emailField.value || !commentField.value) {
-      evt.preventDefault();
-      console.log('Нужно заполнить все поля');
-      //feedbackPopup.classList.remove("modal-error");
-      //feedbackPopup.offsetWidth = feedbackPopup.offsetWidth;
-      feedbackPopup.classList.add('modal-error');
-    } else {
-      if (isStorageSupport) {
-        localStorage.setItem('name', nameField.value);
-        localStorage.setItem('email', emailField.value);
-      }
-    }
-  });
-
+  // Показ карты
   btnMap.addEventListener('click', function (evt) {
     evt.preventDefault();
     mapPopup.classList.add('modal-show');
   });
 
+  // Кнопка закрытия для всех модальных окон
   for (var i = 0; i < popupClose.length; i++) {
     popupClose[i].addEventListener('click', function (evt) {
       evt.preventDefault();
@@ -73,17 +88,7 @@ window.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-
-  // productList.addEventListener('click', function (evt) {
-  //   evt.preventDefault();
-  //   //if (evt.target && evt.target.classList.contains('btn-buy')) {}  // какой метод лучше?
-  //   //if (evt.target && evt.target.matches('a.btn-buy')) {
-  //   if (evt.target && evt.target.classList.contains('btn-buy')) {
-  //     console.log('Попал по кнопке');
-  //     //modalAdded2Cart.classList.add('modal-show');
-  //   }
-  // });
-
+  // Обработчик кнопки купить
   for (var b = 0; b < btnAdded2Cart.length; b++) {
     btnAdded2Cart[b].addEventListener('click', function (evt) {
       evt.preventDefault();
@@ -91,15 +96,7 @@ window.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  document.addEventListener('keydown', function (evt) {
-    if (evt.keyCode === 27) {
-      evt.preventDefault();
-      if (feedbackPopup.classList.contains('modal-show')) {
-        feedbackPopup.classList.remove('modal-show');
-        feedbackPopup.classList.remove("modal-error");
-      }
-    }
-  });
+
 
   // for (var i = 0; i < modals.length; i++) {
   //   modals[i].addEventListener('keydown', function (evt) {
