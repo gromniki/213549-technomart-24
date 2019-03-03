@@ -13,6 +13,19 @@ window.addEventListener('DOMContentLoaded', function () {
   var popupClose = document.querySelectorAll('.modal-close');
 
   if (btnShowFeedback != null) {
+    var btnPrev = document.querySelector('.js-slide-prev');
+    var btnNext = document.querySelector('.js-slide-next');
+
+    console.log(btnPrev);
+    console.log(btnNext);
+
+    btnPrev.addEventListener('ckick', function (evt) {
+      evt.preventDefault();
+
+
+
+    });
+
     var form = feedbackPopup.querySelector('.modal-form');
     var nameField = feedbackPopup.querySelector('[name=name]');
     var emailField = feedbackPopup.querySelector('[name=email]');
