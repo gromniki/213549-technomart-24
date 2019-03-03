@@ -3,13 +3,6 @@ window.addEventListener('DOMContentLoaded', function () {
 
   var btnShowFeedback = document.querySelector('.js-btn-show-modal-feedback');
   var feedbackPopup = document.querySelector('.modal-feedback');
-  var form = feedbackPopup.querySelector('.modal-form');
-  var nameField = feedbackPopup.querySelector('[name=name]');
-  var emailField = feedbackPopup.querySelector('[name=email]');
-  var commentField = feedbackPopup.querySelector('[name=text]');
-  var isStorageSupport = true;
-  var storageName = '';
-  var storageEmail = '';
 
   var btnMap = document.querySelector('.js-btn-show-modal-map');
   var mapPopup = document.querySelector('.modal-map');
@@ -19,29 +12,37 @@ window.addEventListener('DOMContentLoaded', function () {
 
   var popupClose = document.querySelectorAll('.modal-close');
 
-  try {
-    storageName = localStorage.getItem('name');
-    storageEmail = localStorage.getItem('email');
-  } catch (err) {
-    isStorageSupport = false;
-  }
-
   if (btnShowFeedback != null) {
+    var form = feedbackPopup.querySelector('.modal-form');
+    var nameField = feedbackPopup.querySelector('[name=name]');
+    var emailField = feedbackPopup.querySelector('[name=email]');
+    var commentField = feedbackPopup.querySelector('[name=text]');
+    var isStorageSupport = true;
+    var storageName = '';
+    var storageEmail = '';
+
+    try {
+      storageName = localStorage.getItem('name');
+      storageEmail = localStorage.getItem('email');
+    } catch (err) {
+      isStorageSupport = false;
+    }
+
     btnShowFeedback.addEventListener('click', function (evt) {
       evt.preventDefault();
       feedbackPopup.classList.add('modal-show');
 
-      if (storageName) {
+      if (storageName && !emailField) {
         nameField.value = storageName;
         emailField.focus();
-      } else if (storageEmail) {
+      } else if (storageEmail && storageName) {
+        nameField.value = storageName;
         emailField.value = storageEmail;
         commentField.focus();
       } else {
         nameField.focus();
       }
     });
-
 
     form.addEventListener('submit', function (evt) {
       if (!nameField.value || !emailField.value || !commentField.value) {
@@ -73,10 +74,12 @@ window.addEventListener('DOMContentLoaded', function () {
   }
 
   // Показ карты
-  btnMap.addEventListener('click', function (evt) {
-    evt.preventDefault();
-    mapPopup.classList.add('modal-show');
-  });
+  if (btnMap != null) {
+    btnMap.addEventListener('click', function (evt) {
+      evt.preventDefault();
+      mapPopup.classList.add('modal-show');
+    });
+  }
 
   // Кнопка закрытия для всех модальных окон
   for (var i = 0; i < popupClose.length; i++) {
@@ -95,7 +98,6 @@ window.addEventListener('DOMContentLoaded', function () {
       modalAdded2Cart.classList.add('modal-show');
     });
   }
-
 
 
   // for (var i = 0; i < modals.length; i++) {
