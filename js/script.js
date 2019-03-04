@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
   var popupClose = document.querySelectorAll('.modal-close');
 
-  if (btnShowFeedback != null) {
+  if (btnShowFeedback) {
     var btnPrev = document.querySelector('.js-slide-prev');
     var btnNext = document.querySelector('.js-slide-next');
 
@@ -87,7 +87,7 @@ window.addEventListener('DOMContentLoaded', function () {
   }
 
   // Показ карты
-  if (btnMap != null) {
+  if (btnMap) {
     btnMap.addEventListener('click', function (evt) {
       evt.preventDefault();
       mapPopup.classList.add('modal-show');

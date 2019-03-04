@@ -1054,8 +1054,10 @@ address {
 
 .marker-list li {
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   padding-left: 35px;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .marker-list li::before {
