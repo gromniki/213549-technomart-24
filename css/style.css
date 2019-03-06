@@ -485,7 +485,7 @@ address {
 .user-navigation-list a,
 .user-info a {
   display: block;
-  padding: 12px 26px;
+  padding: 12px 25px;
   font-size: 21px;
   line-height: 21px;
   color: #000000;
@@ -1023,6 +1023,10 @@ address {
 }
 
 .services-slide-description {
+  max-width: 375px;
+}
+
+.services-slider-item:first-of-type .services-slide-description {
   max-width: 275px;
 }
 

@@ -24,6 +24,7 @@
 - https://www.kizu.ru/ru/nested-links/ – вложенные ссылки
 - http://html5doctor.com/ – HTML5
 - http://alexbrush.com/seo-zagolovki-stranits-pravilnye-tegi-h1-i-h2.html – SEO заголовки H1 и H2
+- https://up.htmlacademy.ru/htmlcss/24/examples_br#technomart – <br> в Техномарте
 
 ### Кодгайды
 - http://codeguide.academy/#html-syntax
