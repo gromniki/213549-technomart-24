@@ -312,7 +312,9 @@ input[type="radio"].visually-hidden {
   border: 0;
 }
 
-.main-header-search-input:hover + .main-header-search-btn {
+.main-header-search-input:hover + .main-header-search-btn,
+.main-header-search-input:focus + .main-header-search-btn,
+.main-header-search-btn:hover {
   opacity: 1;
 }
 
@@ -326,6 +328,7 @@ input[type="radio"].visually-hidden {
 .main-header-search-input:focus + .main-header-search-btn path,
 .main-header-search-input:active + .main-header-search-btn path {
   fill: #ff0000;
+  opacity: 1;
 }
 
 .main-header-search input::placeholder {
