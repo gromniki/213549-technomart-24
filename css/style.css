@@ -485,7 +485,7 @@ address {
 .user-navigation-list a,
 .user-info a {
   display: block;
-  padding: 12px 25px;
+  padding: 12px 26px;
   font-size: 21px;
   line-height: 21px;
   color: #000000;
@@ -1117,7 +1117,7 @@ address {
   list-style: none;
 }
 
-.breadcrumbs-list li {
+.breadcrumbs-list li:not(:last-of-type) {
   position: relative;
   margin-right: 14px;
   padding-right: 25px;
@@ -1595,7 +1595,7 @@ address {
 
 /* Description */
 .description {
-  padding: 40px 0 60px;
+  padding: 40px 0 55px;
   background-color: #f4f7f9;
 }
 
