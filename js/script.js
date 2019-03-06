@@ -22,9 +22,6 @@ window.addEventListener('DOMContentLoaded', function () {
   var btnPrev = document.querySelector('.js-slide-prev');
   var btnNext = document.querySelector('.js-slide-next');
 
-  console.log(btnPrev);
-  console.log(btnNext);
-
   btnPrev.addEventListener('click', function (evt) {
     evt.preventDefault();
 
@@ -57,7 +54,6 @@ window.addEventListener('DOMContentLoaded', function () {
   form.addEventListener('submit', function (evt) {
     if (!nameField.value || !emailField.value || !commentField.value) {
       evt.preventDefault();
-      console.log('Нужно заполнить все поля');
       //feedbackPopup.classList.remove("modal-error");
       //feedbackPopup.offsetWidth = feedbackPopup.offsetWidth;
       feedbackPopup.classList.add('modal-error');
@@ -65,9 +61,6 @@ window.addEventListener('DOMContentLoaded', function () {
       if (isStorageSupport) {
         localStorage.setItem('name', nameField.value);
         localStorage.setItem('email', emailField.value);
-
-        //localStorage.setItem('name', nameField.value);
-        //localStorage.setItem('email', emailField.value);
       }
     }
   });
@@ -109,6 +102,3 @@ window.addEventListener('DOMContentLoaded', function () {
     });
   }
 });
-
-
-

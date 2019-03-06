@@ -201,6 +201,10 @@
 ### Тестирование и оптимизация
 - https://radar.yandex.ru/browsers – Яндекс Радар
 
+### Минификаторы
+- http://css.github.io/csso/csso.html – Минификатор для CSS.
+- https://jscompress.com – Минификатор для JavaScript.
+
 ### Демки
 - https://up.htmlacademy.ru/htmlcss/24/demos/2137 – Практики: вставка видео
 - https://up.htmlacademy.ru/htmlcss/24/demos/2139 - Практики: градиенты с фолбеком
