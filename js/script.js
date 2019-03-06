@@ -21,10 +21,21 @@ window.addEventListener('DOMContentLoaded', function () {
 
   var btnPrev = document.querySelector('.js-slide-prev');
   var btnNext = document.querySelector('.js-slide-next');
+  var toggle = document.querySelectorAll('input[name=toggle]');
+
+  console.log(toggle);
 
   btnPrev.addEventListener('click', function (evt) {
     evt.preventDefault();
 
+  });
+
+
+
+  btnPrev.addEventListener('click', function (evt) {
+    evt.preventDefault();
+
+    changeSlide(toggle, 'prev');
   });
 
 
