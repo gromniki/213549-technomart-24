@@ -23,22 +23,33 @@ window.addEventListener('DOMContentLoaded', function () {
   var btnNext = document.querySelector('.js-slide-next');
   var toggle = document.querySelectorAll('input[name=toggle]');
 
-  console.log(toggle);
-
-  btnPrev.addEventListener('click', function (evt) {
-    evt.preventDefault();
-
-  });
-
-
-
+  //
   btnPrev.addEventListener('click', function (evt) {
     evt.preventDefault();
 
     changeSlide(toggle, 'prev');
   });
 
+  btnNext.addEventListener('click', function (evt) {
+    evt.preventDefault();
 
+    changeSlide(toggle, 'next');
+  });
+
+  function changeSlide(slider, direct) {
+    var nextSlide = 0;
+    for (var i = 0; i < slider.length; i++) {
+      if (slider[i].checked) {
+        nextSlide = i;
+        if (direct == 'next' && i < slider.length - 1) nextSlide++;
+        if (direct == 'prev' && i > 0) nextSlide--;
+      }
+    }
+
+    slider[nextSlide].checked = true;
+  }
+
+  // Форма обратной связи
   try {
     storageName = localStorage.getItem('name');
     storageEmail = localStorage.getItem('email');
