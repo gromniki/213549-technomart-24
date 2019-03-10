@@ -131,6 +131,7 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
+  vertical-align: middle;
   background-color: #ee3643;
   border: none;
   border-radius: 3px;
@@ -439,6 +440,7 @@ address {
   font-size: 21px;
   line-height: 21px;
   color: #e9292a;
+  vertical-align: middle;
   border: 3px solid #ffffff;
 }
 
@@ -582,6 +584,7 @@ address {
   font-size: 16px;
   line-height: 18px;
   color: #32425c;
+  vertical-align: middle;
   text-decoration: underline;
 }
 
@@ -619,6 +622,7 @@ address {
   display: inline-block;
   padding: 16px 30px;
   color: #ffffff;
+  vertical-align: middle;
 }
 
 .index-column {
@@ -756,6 +760,7 @@ address {
   margin: 0 3px;
   width: 10px;
   height: 10px;
+  vertical-align: middle;
   border: 2px solid #ffffff;
   border-radius: 50%;
   background-color: #ffffff;
@@ -1150,6 +1155,7 @@ address {
   width: 16px;
   height: 13px;
   margin-top: 1px;
+  vertical-align: middle;
   background: url("../img/icon-home.svg") no-repeat 0 0;
 }
 
@@ -1573,6 +1579,7 @@ address {
   display: inline-block;
   padding: 10px 14px;
   color: #000000;
+  vertical-align: middle;
   border: 1px solid #e5e5e5;
   border-radius: 3px;
 }
