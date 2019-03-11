@@ -18,7 +18,7 @@ for (var i = 0; i < popupClose.length; i++) {
   popupClose[i].addEventListener('click', function (evt) {
     evt.preventDefault();
     this.parentNode.classList.remove('modal-show');
-    this.parentNode.classList.remove("modal-error");
+    this.parentNode.classList.remove('modal-error');
     console.log('Закрыл элемент ' + this.parentNode.className);
   });
 }
