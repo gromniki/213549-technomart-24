@@ -1,59 +1,5 @@
 @charset "UTF-8";
 
-/*@font-face {
-  font-family: "PT Sans";
-  src: local("PT Sans"), local("PTSans"),
-  url("../fonts/ptsans.woff2") format("woff2"),
-  url("../fonts/ptsans.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "PT Sans";
-  src: local("PT Sans"), local("PTSans"),
-  url("../fonts/ptsansbold.woff2") format("woff2"),
-  url("../fonts/ptsansbold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Cuprum";
-  src: local("Cuprum"),
-  url("../fonts/cuprum.woff2") format("woff2"),
-  url("../fonts/cuprum.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Cuprum";
-  src: local("Cuprum"),
-  url("../fonts/cuprumbold.woff2") format("woff2"),
-  url("../fonts/cuprumbold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Cuprum";
-  src: local("Cuprum"),
-  url("../fonts/cuprumitalic.woff2") format("woff2"),
-  url("../fonts/cuprumitalic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Cuprum";
-  src: local("Cuprum"),
-  url("../fonts/cuprumbolditalic.woff2") format("woff2"),
-  url("../fonts/cuprumbolditalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-}*/
-
 html {
   box-sizing: border-box;
 }
@@ -131,7 +77,7 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
-  vertical-align: middle;
+  vertical-align: top;
   background-color: #ee3643;
   border: none;
   border-radius: 3px;
@@ -429,10 +375,6 @@ input[type="radio"].visually-hidden {
   color: #ee3643;
 }
 
-address {
-  font-style: normal;
-}
-
 .main-header-contacts a {
   position: relative;
   display: inline-block;
@@ -440,7 +382,7 @@ address {
   font-size: 21px;
   line-height: 21px;
   color: #e9292a;
-  vertical-align: middle;
+  vertical-align: top;
   border: 3px solid #ffffff;
 }
 
@@ -457,6 +399,7 @@ address {
 .main-header-contacts address {
   padding: 3px 0 0 10px;
   font-size: 14px;
+  font-style: normal;
   line-height: 24px;
   color: #32425c;
 }
@@ -479,6 +422,7 @@ address {
 .user-info {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }
@@ -567,19 +511,12 @@ address {
 }
 
 .user-menu {
-  position: relative;
   margin: 0;
   padding-left: 20px;
 }
 
-.user-menu::before {
-  content: "•";
-  position: absolute;
-  top: 2px;
-  left: 36%;
-}
-
 .user-menu a {
+  position: relative;
   display: inline-block;
   font-size: 16px;
   line-height: 18px;
@@ -588,8 +525,15 @@ address {
   text-decoration: underline;
 }
 
-.user-menu a:first-of-type {
-  margin-right: 28px;
+.user-menu a:not(:last-of-type)::before {
+  content: "•";
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.user-menu a:not(:last-of-type) {
+  padding-right: 28px;
 }
 
 .main-navigation {
@@ -622,7 +566,7 @@ address {
   display: inline-block;
   padding: 16px 30px;
   color: #ffffff;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .index-column {
@@ -760,7 +704,7 @@ address {
   margin: 0 3px;
   width: 10px;
   height: 10px;
-  vertical-align: middle;
+  vertical-align: top;
   border: 2px solid #ffffff;
   border-radius: 50%;
   background-color: #ffffff;
@@ -961,6 +905,12 @@ address {
   cursor: pointer;
 }
 
+.services label:hover,
+.services label:focus {
+  background-color: #293449;
+  outline: none;
+}
+
 .services-slider-controls {
   position: relative;
   margin-right: 80px;
@@ -1056,6 +1006,10 @@ address {
 
 .about > p:last-of-type {
   margin-bottom: 20px;
+}
+
+.about-small-width {
+  max-width: 390px;
 }
 
 .marker-list {
@@ -1155,7 +1109,7 @@ address {
   width: 16px;
   height: 13px;
   margin-top: 1px;
-  vertical-align: middle;
+  vertical-align: top;
   background: url("../img/icon-home.svg") no-repeat 0 0;
 }
 
@@ -1432,8 +1386,8 @@ address {
   border-bottom: none;
 }
 
-.sorting-arrow a:hover path,
-.sorting-arrow a:focus path {
+.sorting-arrow-link:hover path,
+.sorting-arrow-link:focus path {
   opacity: 1;
 }
 
@@ -1579,7 +1533,7 @@ address {
   display: inline-block;
   padding: 10px 14px;
   color: #000000;
-  vertical-align: middle;
+  vertical-align: top;
   border: 1px solid #e5e5e5;
   border-radius: 3px;
 }
@@ -1674,6 +1628,7 @@ address {
 .footer-address {
   max-width: 330px;
   padding-left: 5px;
+  font-style: normal;
 }
 
 .footer-navigation-main,
