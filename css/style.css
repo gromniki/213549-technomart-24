@@ -704,7 +704,7 @@ input[type="radio"].visually-hidden {
   margin: 0 3px;
   width: 10px;
   height: 10px;
-  vertical-align: top;
+  vertical-align: middle;
   border: 2px solid #ffffff;
   border-radius: 50%;
   background-color: #ffffff;
@@ -1482,6 +1482,7 @@ input[type="radio"].visually-hidden {
 
 .product-title a {
   color: #000000;
+  text-transform: none;
 }
 
 .old-price {
