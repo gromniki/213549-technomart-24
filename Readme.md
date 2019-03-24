@@ -72,20 +72,46 @@
 - https://docs.google.com/document/d/193kWggybSx0zLjKiM0WaWpnMrx4ZwB07IhSOHT3kt8U/preview#
 
 
-## Лекция 3. Работа с графикой
-### Изображения
-- https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization?hl=ru – оптимизация изображений
-- https://htmlacademy.ru/blog/113-image-formats – Форматы изображений
-- https://htmlacademy.ru/blog/153-content-or-decor-img – Как отличить контентное изображение от декоративного
+## Лекция 3. Работа с графикой\
+### Статьи
+- https://htmlacademy.ru/blog/51-photoshop-for-the-coders – Фотошоп для верстальщика.
+- http://prgssr.ru/development/alternativnyj-tekst-dlya-izobrazhenij.html – Альтернативный текст для изображений.
+- https://github.com/nicothin/web-design – О чём должен помнить веб-дизайнер.
+- https://godesigner.ru/posts/view/175 – 15 самых употребляемых типографических терминов.
+- https://codeburst.io/the-front-end-design-checklist-4dd15828fad?gi=46626f9791c3 – The Front-End Design Checklist.
+
+### Растровые и векторные изображения
+- https://htmlacademy.ru/blog/111-rastr-vector – Растровая и векторная графика.
+- https://htmlacademy.ru/blog/113-image-formats – Форматы изображений.
+- https://htmlacademy.ru/blog/153-content-or-decor-img – Как отличить контентное изображение от декоративного.
+- https://www.artlebedev.ru/technogrette/img/png-1 – Про PNG.
+- http://css.yoksel.ru/svg – Формат SVG.
+- https://htmlacademy.ru/shorts/4 – Как правильно вставлять SVG.
+- https://codepen.io/noahblon/post/coloring-svgs-in-css-background-images – Coloring SVG in CSS Background Images.
+- https://code.google.com/archive/p/svg-explorer-extension – Просмотр эскизов SVG для Windows.
 - https://www.sarasoueidan.com/tags/svg/ – Всё о SVG
 
 ### Оптимизация
+- https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization?hl=ru – оптимизация изображений
 - https://imagecompressor.com/ru/ – хорошо сжимает JPG
 - https://tinypng.com/ – хорошо сжимает PNG
 - https://jakearchibald.github.io/svgomg/ – оптимизация SVG
+- https://squoosh.app – все форматы
+- https://nikkhokkho.sourceforge.io/static.php?page=FileOptimizer – FileOptimizer 
 
 
 ## Лекция 4. Доступность и формы
+### Статьи о доступности
+- https://weblind.ru – Веблайнд: Рекомендации по разработке сайтов
+- https://htmlacademy.ru/shorts/10 – HTML Шорты: Как фокус помогает
+- https://htmlacademy.ru/shorts/12 – HTML Шорты: Как прятать
+- https://allyjs.io/tutorials/hiding-elements.html – A11y.js: Hiding DOM elements
+- https://webaim.org/techniques/keyboard – WebAIM: keyboard accessibility
+- https://webaim.org/articles/nvda – Using NVDA to evaluate web accessibility
+- https://www.w3.org/TR/wai-aria-1.1 – Спецификация WAI-ARIA 1.1
+- https://axesslab.com/alt-texts – Alt-texts: The Ultimate Guide
+- https://www.w3.org/TR/wai-aria-practices/examples/breadcrumb/index.html – WAI-ARIA Authoring Practices: Breadcrumb Example
+
 - https://up.htmlacademy.ru/htmlcss/24/module/4/prepare/1 – Введение в CSS
 - http://shouldiprefix.com/ – What CSS to prefix?
 
@@ -98,6 +124,14 @@
 - https://up.htmlacademy.ru/htmlcss/24/demos/1917 – Формы
 - https://up.htmlacademy.ru/htmlcss/24/demos/1919 – Преимущества текста
 - https://up.htmlacademy.ru/htmlcss/24/demos/1921 – Прятки текста
+
+### Видео
+- https://www.youtube.com/watch?v=RQiN1Hhrxu0&feature=youtu.be – Как незрячий пользуется iPhone, MacBook и Apple Watch
+- https://www.youtube.com/watch?v=2nSib5UuR_g&feature=youtu.be – Особенности веб-интерфейса при работе со скринридером
+- https://www.youtube.com/watch?v=bDYEnNzprzE&feature=youtu.be – Семантика для циников
+- https://www.youtube.com/watch?v=ETw8uUr6Q7g&feature=youtu.be – WCAG 2.0, или боль доступного веба
+- https://www.youtube.com/watch?v=ssJsjGZE2sc&feature=youtu.be – Людоедский интерфейс
+- https://www.youtube.com/watch?v=MbtrzoTmWLo&feature=youtu.be – Доступность динамических веб компонентов
 
 ### Шрифты
 - https://www.copypastecharacter.com/ – Сервис спецсимволов
