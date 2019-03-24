@@ -4,6 +4,26 @@
 * Наставник: [Ярослав Макаренко](https://htmlacademy.ru/profile/id234926).
 ---
 ## Лекция 1. Вводная
+### Редакторы кода
+- https://htmlacademy.ru/blog/40-editors-for-the-coders – Обзор редакторов для верстальщика.
+
+### Как работают сайты на самом деле
+- https://habr.com/ru/company/htmlacademy/blog/254825 – Что на самом деле происходит,
+    когда пользователь вбивает в браузер адрес google.com
+- https://www.html5rocks.com/ru/tutorials/internals/howbrowserswork – Принципы работы современных веб-браузеров
+- https://howdns.works/ep1 – Комикс «как работает DNS».
+
+### Программы для работы с GitHub
+- https://desktop.github.com – GitHub Desktop.
+- https://www.gitkraken.com – GitKraken.
+- https://www.sourcetreeapp.com – Atlassian SourceTree.
+
+### Полезные материалы по работе с Git
+- https://htmlacademy.ru/blog/317-version-control-system – Введение в системы контроля версий.
+- https://htmlacademy.ru/blog/85-register-on-github-work-with-github-desktop – Процесс работы с GitHub через GitHub Desktop.
+- https://git-scm.com/book/ru/v2 – Настольная книга о работе с Git.
+- https://githowto.com/ru – Интерактивный тур, который познакомит вас с основами.
+- http://firstaidgit.ru/# – Коллекция часто задаваемых вопросов.
 - https://isqua.ru/blog/2017/04/13/kommientiruitie-svoi-pull-riekviesty/ – Комментируйте свои пулл-реквесты
 - https://isqua.ru/blog/2017/04/12/kak-otkryt-pull-riekviest-v-github-i-nie-oblazhatsia/ – Как открыть пулл-реквест в Github и не облажаться
 - https://habr.com/ru/company/voximplant/blog/276695/ – Как оформлять коммиты
@@ -19,12 +39,25 @@
 
 
 ## Лекция 2. Разметка
+### О разметке
+- http://yoksel.github.io/easy-markup – Простые правила разметки.
+- https://htmlacademy.ru/shorts/7 – Зачем нужны заголовки.
+- https://htmlacademy.ru/shorts/3 – Секции в футере.
+- https://htmlacademy.ru/shorts/1 – Ссылки вокруг блоков.
+- https://htmlacademy.ru/shorts/11 – W3C или WHATWG.
+- https://events.yandex.ru/lib/talks/1520 – Видеозапись доклада «Семантика или смерть».
+- https://github.com/yoksel/common-words – Слова, часто используемые в CSS-классах.
+- https://htmlacademy.ru/blog/153-content-or-decor-img – Как отличить контентное изображение от декоративного.
 - https://ru.bem.info/methodology/html/ – БЭМ
 - https://github.com/yoksel/common-words – названия классов на eng
 - https://www.kizu.ru/ru/nested-links/ – вложенные ссылки
 - http://html5doctor.com/ – HTML5
 - http://alexbrush.com/seo-zagolovki-stranits-pravilnye-tegi-h1-i-h2.html – SEO заголовки H1 и H2
 - https://up.htmlacademy.ru/htmlcss/24/examples_br#technomart – <br> в Техномарте
+
+### Статьи о стилях кодирования
+- http://www.colorglare.com/2014/02/03/to-close-or-not-to-close.html – Ставить или не ставить закрывающий слеш в одиночных тегах.
+- https://htmlacademy.ru/blog/62-codeguide-why-what-and-how – Кодгайд: почему, зачем и как?
 
 ### Кодгайды
 - http://codeguide.academy/#html-syntax
@@ -210,6 +243,28 @@
 - https://up.htmlacademy.ru/htmlcss/24/demos/2137 – Практики: вставка видео
 - https://up.htmlacademy.ru/htmlcss/24/demos/2139 - Практики: градиенты с фолбеком
 - https://up.htmlacademy.ru/htmlcss/24/demos/2141#1 - Практики: гигантские SVG-иконки
+
+## Лекция 11. Финал
+### Поиск работы
+- https://nexus.htmlacademy.ru/ – База выпускников Академии
+- https://www.superjob.ru/vakansii/verstalschik.html?landing_url=verstalschik&order_by%5Bpayment_sort%5D=desc –
+    Поиск работы на SuperJob.
+- https://rabota.yandex.ru/search?text=%D0%B2%D0%B5%D1%80%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D1%89%D0%B8%D0%BA&rid=225 –
+    Поиск работы на Яндекс.Работе.
+- http://itmozg.ru/search/vacancy – Поиск работы на ITMozg.
+- https://rubrain.com – Rubrain.
+- https://itv.te-st.ru – IT-Волонтёр.
+- https://it.falanster.by/index-ru.html – Цифровая мастерская.
+
+### Для портфолио
+- https://htmlacademy.ru/blog/48-how-to-register-domain – Как зарегистрировать свой домен
+
+### Что изучать дальше
+- https://habr.com/ru/company/friifond/blog/293936 – Как стать отличным фронтенд-разработчиком.
+- https://frontender.info/a-baseline-for-front-end-developers – Необходимый минимум для фронтенд-разработчика.
+
+### Open Source
+- https://cultofmartians.com – Cult of Martians.
 
 ---
 
