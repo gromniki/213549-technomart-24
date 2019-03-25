@@ -144,16 +144,33 @@
 
 
 ## Лекция 5. Введение в CSS
+### Работа с веб-шрифтами
+- https://fontstorage.com/blog/about-font-face-part-one – Подключение нестандартных шрифтов. Часть первая.
+- https://fontstorage.com/blog/about-font-face-part-two – Подключение нестандартных шрифтов. Часть вторая.
+- https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization?hl=ru
+    – Оптимизация шрифтов.
+- https://hackernoon.com/rems-and-ems-and-why-you-probably-dont-need-them-664b9ce1e09f – Why you probably
+    don’t need em and rem.
+- https://medium.com/devschacht/david-gilbertson-rems-and-ems-and-why-you-probably-dont-need-them-3b2b1e785787
+    – Ремы, емы, и почему отказ от них — не проблема.
+
+### Normalize.css
+- https://htmlacademy.ru/blog/64-about-normalize-css – Зачем использовать normalize.css?
+### HTML Шорты
+- https://www.youtube.com/watch?v=KGYmOlNteas&t=48s – Нормальный сброс.
+### Спецификация в CSS
+- https://www.youtube.com/watch?v=Z9of2cj28hY – Что нужно знать, чтобы готовить свои черновики спецификаций.
+- https://vk.com/sergeytovarov?z=video1238505_456239150%2Fvideos1238505%2Fpl_1238505_-2 – А что если мы долетим и там будет всё?
+- https://css-live.ru/css/nikto-ne-znaet-css-specifichnost-ne-kaskad.html – Никто не знает CSS: специфичность — не каскад.
+
 - https://up.htmlacademy.ru/htmlcss/24/module/5/prepare/1 – Блочная модель
 - https://up.htmlacademy.ru/htmlcss/24/module/5/prepare/2 – Флексбокс, часть 1
-
-### Спецификация в CSS
-- https://css-live.ru/css/nikto-ne-znaet-css-specifichnost-ne-kaskad.html – Никто не знает CSS: специфичность — не каскад
 
 ### Демки
 - https://up.htmlacademy.ru/htmlcss/24/demos/1933 – Базовая стилизация главной Барбершопа 
 - https://up.htmlacademy.ru/htmlcss/24/demos/1935 – Базовая стилизация каталога Барбершопа 
 - https://up.htmlacademy.ru/htmlcss/24/demos/1931 – Базовая стилизация карточки товара Барбершопа
+
 
 ## Лекция 6. Сетки
 ### Вопросы и ответы
@@ -179,16 +196,36 @@
 
 ### Игры по флексбоксам
 - http://www.flexboxdefense.com – Flexbox defense
-- http://flexboxfroggy.com/#ru – Flexbox froggy 
-
+- http://flexboxfroggy.com/#ru – Flexbox froggy
 
 ### Демки
 - https://up.htmlacademy.ru/htmlcss/24/demos/1941 – Сетка главной Барбершопа
 - https://up.htmlacademy.ru/htmlcss/24/demos/1937 – Сетка каталога Барбершопа
 - https://up.htmlacademy.ru/htmlcss/24/demos/1939 – Сетка карточки товара Барбершопа
 
+
 ## Лекция 7. Декоративные элементы
-- https://isqua.ru/blog/2016/05/30/kak-popast-v-makiet-i-nie-soiti-s-uma/ 
+### Плавающие элементы (float)
+- http://softwaremaniacs.org/blog/2005/12/01/css-layout-float – Раскладка в CSS — старая, но подробная статья про флоаты.
+- https://habr.com/ru/post/136588 – Флоатомания: разъяснение как работает CSS-свойство float.
+- https://css-tricks.com/all-about-floats – All about floats.
+### Блочно-строчные элементы (display: inline-block)
+- https://htmlacademy.ru/blog/21-fighting-the-space-between-inline-block-elements – Приёмы борьбы с пробелами
+    между блочно-строчными элементами.
+- https://css-tricks.com/centering-css-complete-guide – Выравнивание элементов.
+- https://css-live.ru/articles-css/udivitelnyj-i-neizvestnyj-inline-block.html – Удивительный и неизвестный inline-block.
+### Псевдоэлементы
+- https://htmlacademy.ru/courses/57/run/13 – Серия заданий про псевдоэлементы.
+### Pixel Perfect
+- https://www.welldonecode.com/perfectpixel/ – Расширение для браузеров.
+- https://isqua.ru/blog/2016/05/30/kak-popast-v-makiet-i-nie-soiti-s-uma – Как попасть в макет и не сойти с ума.
+### z-index
+- https://hackernoon.com/my-approach-to-using-z-index-eca67feb079c – My approach to using z-index.
+### Векторная графика
+- http://css.yoksel.ru/tags/#svg – Блог Юлии Бухваловой про SVG.
+- https://htmlacademy.ru/shorts/4 – Как правильно вставлять SVG.
+- https://svgontheweb.com/ru – SVG в вебе. Практическое руководство.
+- http://svgpocketguide.com/book – Pocket Guide to Writing SVG.
 
 ### Демки
 - https://up.htmlacademy.ru/htmlcss/24/demos/1943 – Слайдер в Нёрдс
@@ -201,6 +238,7 @@
 - https://up.htmlacademy.ru/htmlcss/24/demos/1953 – Завершение стилизации главной Барбершопа
 - https://up.htmlacademy.ru/htmlcss/24/demos/1949 – Завершение стилизации каталога Барбершопа
 - https://up.htmlacademy.ru/htmlcss/24/demos/1951 – Завершение стилизации карточки Барбершопа
+
 
 ## Лекция 8. Оформление контента
 ### Тонкости некоторых свойств
@@ -224,10 +262,11 @@
 - https://up.htmlacademy.ru/htmlcss/24/demos/1961 – Текстовая страница «Барбершопа»
 - https://up.htmlacademy.ru/htmlcss/24/demos/1963 – Модальные окна в «Барбершопе»
 
+
 ## Лекция 9. Введение в JavaScript
 ### Основы JavaScript
 - https://vk.cc/94WNWq – Что такое DOM
-- https://tproger.ru/articles/localstorage/ – просто о localStorage
+- https://tproger.ru/articles/localstorage – просто о localStorage
 
 ### Работа с клавиатурой
 - https://developer.mozilla.org/ru/docs/Web/Events – Клавиатурные события
@@ -249,6 +288,7 @@
 ### Демки
 - https://up.htmlacademy.ru/htmlcss/24/demos/1965 – Оживление формы Барбершопа
 - https://up.htmlacademy.ru/htmlcss/24/demos/1967 – Оживление карты Барбершопа
+
 
 ## Лекция 10. Лучшие практики
 ### Прогрессивное улучшение
@@ -277,6 +317,7 @@
 - https://up.htmlacademy.ru/htmlcss/24/demos/2137 – Практики: вставка видео
 - https://up.htmlacademy.ru/htmlcss/24/demos/2139 - Практики: градиенты с фолбеком
 - https://up.htmlacademy.ru/htmlcss/24/demos/2141#1 - Практики: гигантские SVG-иконки
+
 
 ## Лекция 11. Финал
 ### Поиск работы
