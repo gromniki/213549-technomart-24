@@ -308,10 +308,33 @@
     
 ### Тестирование и оптимизация
 - https://radar.yandex.ru/browsers – Яндекс Радар
+- https://developers.google.com/web/tools/chrome-devtools/device-mode – Simulate Mobile Devices with Device Mode.
+- https://developer.microsoft.com/en-us/microsoft-edge/tools/vms – Microsoft Edge VMs.
+- https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency – Optimizing Content Efficiency.
+- https://polyfill.io/v3 – Polyfill.io
+
+### Определение возможностей, которые можно использовать в браузере
+- https://caniuse.com – Can I Use.
+- https://modernizr.com – Modernizr.
 
 ### Минификаторы
 - http://css.github.io/csso/csso.html – Минификатор для CSS.
 - https://jscompress.com – Минификатор для JavaScript.
+
+### Префиксование
+- http://autoprefixer.github.io/ru – Онлайн автопрефиксер.
+### Где можно следить за новостями
+- https://github.com/web-standards-ru/calendar – Календарь событий.
+- https://vk.com/webstandards_ru – Новости Веб-стандартов.
+- https://itunes.apple.com/ru/podcast/veb-standarty/id1080500016 – Подкаст Веб-стандарты.
+- https://github.com/web-standards-ru/cityjs-list – CityJS.
+### Модульные сетки
+- http://gutdesign.ru/blog/16-modulnaya-setka/ – Модульная сетка.
+### HTML Шорты
+- https://www.youtube.com/watch?v=sZleJiCCWP8&feature=youtu.be – Прогрессивная деградация.
+### Доклады
+- https://www.youtube.com/watch?v=jAAVN7SWqdk&feature=youtu.be – Мой ванильный CSS.
+- https://www.youtube.com/watch?v=f4uXBpP_xxY&feature=youtu.be – Как я перестал верить технологиям.
 
 ### Демки
 - https://up.htmlacademy.ru/htmlcss/24/demos/2137 – Практики: вставка видео
